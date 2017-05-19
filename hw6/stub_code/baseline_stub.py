@@ -46,14 +46,40 @@ def find_phrase(tagged_tokens, qbow):
 # sentences: is a list of pos tagged story sentences
 # stopwords is a set of stopwords
 
+# Removes duplicate words
+def removeDuplicates(answerList):
+    final = []
+    for a in answerList:
+        if a not in final:
+            final.append(a)
+    return final
+
+
+# if it is a who question, then we only want nouns
+def getOnlyNouns(answerList):
+    onlyNouns = []
+    acceptable = ['NN', 'NNS', 'NNP', 'DT', 'JJ']
+    for a in answerList:
+        if a[1] in acceptable:
+            onlyNouns.append(a[0])
+    return onlyNouns
+
+
 # Remove all words in question from answer
 def removeQuestionWords(question, answer):
     removed_list = []
     questionWords = nltk.word_tokenize(question)
+    # all answers are in lowercase
+    # so let's do the same with the question text
+    questionWords = [w.lower() for w in questionWords]
+    Wlist = ['who', 'what', 'where']
     for a in answer:
         word = a[0]
-        if word not in questionWords:
+        if word.lower() not in questionWords:
             removed_list.append(word)
+    if 'who' in questionWords:
+        removed_list = getOnlyNouns(answer)
+    removed_list = removeDuplicates(removed_list)
     return removed_list
 
 

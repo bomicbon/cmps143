@@ -41,9 +41,20 @@ def find_phrase(tagged_tokens, qbow):
         if word in qbow:
             return tagged_tokens[i + 1:]
 
+
 # qtokens: is a list of pos tagged question tokens with SW removed
 # sentences: is a list of pos tagged story sentences
 # stopwords is a set of stopwords
+
+# Remove all words in question from answer
+def removeQuestionWords(question, answer):
+    removed_list = []
+    questionWords = nltk.word_tokenize(question)
+    for a in answer:
+        word = a[0]
+        if word not in questionWords:
+            removed_list.append(word)
+    return removed_list
 
 
 def baseline(qbow, sentences, stopwords):

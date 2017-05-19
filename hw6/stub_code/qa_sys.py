@@ -47,5 +47,8 @@ if __name__ == '__main__':
                     sentences = baseline_stub.get_sentences(raw_text)
 
                     answer = baseline_stub.baseline(qbow, sentences, stopwords)
-                    print(" ".join(t[0] for t in answer))
+                    removed_question_words = baseline_stub.removeQuestionWords(
+                        question, answer)
+                    print(" ".join(t for t in removed_question_words))
+                    # print(" ".join(t[0] for t in answer))
                     # print(answer)

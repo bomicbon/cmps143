@@ -1,62 +1,62 @@
 QuestionID: fables-01-1
-A on a branch of tree with piece cheese in her beak when Fox observed and set his wits to work discover some way getting .
+Answer: A on a branch of tree with piece cheese in her beak when Fox observed and set his wits to work discover some way getting .
 QuestionID: fables-01-2
-A was sitting on a branch of tree with piece cheese when Fox observed and set his wits to work discover some way getting .
+Answer: A was sitting on a branch of tree with piece cheese when Fox observed and set his wits to work discover some way getting .
 QuestionID: fables-01-3
-A Crow a branch tree piece cheese beak Fox wits some way the
+Answer: A Crow a branch tree piece cheese beak Fox wits some way the
 QuestionID: fables-01-4
-A observed crow and tried discover how get .
+Answer: A observed crow and tried discover how get .
 QuestionID: fables-01-5
-A observed crow and tried to discover how get cheese .
+Answer: A observed crow and tried to discover how get cheese .
 QuestionID: fables-01-6
-There once was a .
+Answer: There once was a .
 QuestionID: fables-01-7
-The crow the fox order able
+Answer: The crow the fox order able
 QuestionID: fables-02-1
-A Lion a fat Bull feeding meadow mouth the royal feast afraid sharp horns
+Answer: A Lion a fat Bull feeding meadow mouth the royal feast afraid sharp horns
 QuestionID: fables-02-2
-The Bull foolish this flattery horns only means defense an easy prey the Lion
+Answer: The Bull foolish this flattery horns only means defense an easy prey the Lion
 QuestionID: fables-02-3
-There once a fat .
+Answer: There once a fat .
 QuestionID: fables-02-4
-The bull a meadow
+Answer: The bull a meadow
 QuestionID: fables-02-5
-A lion the bull
+Answer: A lion the bull
 QuestionID: fables-02-6
-walked toward bull and began to that was friendly .
+Answer: walked toward bull and began to that was friendly .
 QuestionID: fables-02-7
-dear friend the world those ugly horns
+Answer: dear friend the world those ugly horns
 QuestionID: fables-02-8
-a fat bull
+Answer: a fat bull
 QuestionID: fables-02-9
-A watched bull and salivated because wanted to eat .
+Answer: A watched bull and salivated because wanted to eat .
 QuestionID: fables-02-10
-because feared sharp every horn of .
+Answer: because feared sharp every horn of .
 QuestionID: fables-02-11
-A watched bull and salivated because wanted to eat .
+Answer: A watched bull and salivated because wanted to eat .
 QuestionID: blogs-01-1
-A meeting named started on eventful today .
+Answer: A meeting named started on eventful today .
 QuestionID: blogs-01-2
-A G20 started on eventful today .
+Answer: A G20 started on eventful today .
 QuestionID: blogs-01-3
-A summit meeting named G20 started on eventful today .
+Answer: A summit meeting named G20 started on eventful today .
 QuestionID: blogs-01-4
-A protested because it disagreed about a view .
+Answer: A protested because it disagreed about a view .
 QuestionID: blogs-01-5
-The people riot
+Answer: The people riot
 QuestionID: blogs-01-6
-The people riot
+Answer: The people riot
 QuestionID: blogs-01-7
-The people burned and threw thing at .
+Answer: The people burned and threw thing at .
 QuestionID: blogs-01-8
-The people a police car thing
+Answer: The people a police car thing
 QuestionID: blogs-01-9
-The people a police car and threw thing at .
+Answer: The people a police car and threw thing at .
 QuestionID: blogs-01-10
-were burned and things thrown at cops .
+Answer: were burned and things thrown at cops .
 QuestionID: blogs-01-11
-As things got worse tear gas and bean bag bullets were at the rioters while they smash windows of stores .
+Answer: As things got worse tear gas and bean bag bullets were at the rioters while they smash windows of stores .
 QuestionID: blogs-01-12
-As things got worse tear gas and bean bag bullets were while they smash windows of stores .
+Answer: As things got worse tear gas and bean bag bullets were while they smash windows of stores .
 QuestionID: blogs-01-13
-Today a very eventful work day .
+Answer: Today a very eventful work day .

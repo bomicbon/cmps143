@@ -64,6 +64,6 @@ if __name__ == '__main__':
                     answer_text = " ".join(t for t in removed_question_words)
                     answer_prepend = "Answer: "
                     answer_total = answer_prepend + answer_text
-                    output_text.append(answer_text)
+                    output_text.append(answer_total)
                     # print(answer)
     file_write(output_file_name, output_text)

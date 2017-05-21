@@ -9,7 +9,17 @@ from collections import OrderedDict
 import baseline_stub
 import read_write_stub
 
+
+def file_write(file_name, text_list):
+    f = open(file_name, 'w')
+    for line in text_list:
+        f.write(line + "\n")
+    f.close()
+
+
 if __name__ == '__main__':
+    output_file_name = 'train_my_answers.txt'
+    output_text = []
     stopwords = set(nltk.corpus.stopwords.words("english"))
     cname_size_dict = OrderedDict()
     cname_size_dict.update({"fables": 2})
@@ -28,7 +38,9 @@ if __name__ == '__main__':
                     #print("QuestionID: " + qname)
 
                     question = questions[qname]['Question']
-                    print(question)
+
+                    question_line = "QuestionID: {}".format(qname)
+                    output_text.append(question_line)
 
                     # Getting the story filename
                     qtypes = questions[qname]['Type']
@@ -49,7 +61,9 @@ if __name__ == '__main__':
                     answer = baseline_stub.baseline(qbow, sentences, stopwords)
                     removed_question_words = baseline_stub.removeQuestionWords(
                         question, answer)
-                    print(" ".join(t[0] for t in answer))
-                    print(" ".join(t for t in removed_question_words))
-
+                    answer_text = " ".join(t for t in removed_question_words)
+                    answer_prepend = "Answer: "
+                    answer_total = answer_prepend + answer_text
+                    output_text.append(answer_text)
                     # print(answer)
+    file_write(output_file_name, output_text)

@@ -1,93 +1,93 @@
 QuestionID: fables-01-1
-Answer: A on a branch of tree with piece cheese in her beak when Fox observed and set his wits to work discover some way getting .
+Answer: A Crow was on a branch of a tree with a piece of cheese in beak a Fox observed and set wits work discover some way of the cheese
 
 QuestionID: fables-01-2
-Answer: A was sitting on a branch of tree with piece cheese when Fox observed and set his wits to work discover some way getting .
+Answer: A Crow was on a branch of a tree with a piece of cheese in beak a Fox observed and set wits work discover some way of the cheese
 
 QuestionID: fables-01-3
-Answer: A Crow a branch tree piece cheese beak Fox wits some way the
+Answer: A Crow was on a branch of a tree with a piece of cheese in beak a Fox observed and set wits work discover some way of the cheese
 
 QuestionID: fables-01-4
-Answer: A observed crow and tried discover how get .
+Answer: A fox observed the crow and tried discover get the cheese
 
 QuestionID: fables-01-5
-Answer: A observed crow and tried to discover how get cheese .
+Answer: A fox observed the crow and tried discover get the cheese
 
 QuestionID: fables-01-6
-Answer: There once was a .
+Answer: once was a crow
 
 QuestionID: fables-01-7
-Answer: The crow the fox order able
+Answer: The crow felt that the fox had flattered and cawed loudly in order for show that was able sing
 
 QuestionID: fables-02-1
-Answer: A Lion a fat Bull feeding meadow mouth the royal feast afraid sharp horns
+Answer: A Lion watched a fat Bull feeding in a meadow and mouth watered thought of the royal feast make but did not dare attack for was afraid of sharp horns
 
 QuestionID: fables-02-2
-Answer: The Bull foolish this flattery horns only means defense an easy prey the Lion
+Answer: The Bull was foolish enough be persuaded by this flattery have horns cut and now lost only means of defense fell an easy prey the Lion
 
 QuestionID: fables-02-3
-Answer: There once a fat .
+Answer: once was a fat bull
 
 QuestionID: fables-02-4
-Answer: The bull a meadow
+Answer: The bull was in a meadow
 
 QuestionID: fables-02-5
-Answer: A lion the bull
+Answer: A lion watched the bull and salivated because the lion wanted eat the bull
 
 QuestionID: fables-02-6
-Answer: walked toward bull and began to that was friendly .
+Answer: The lion walked toward the bull and began feign that the lion was friendly
 
 QuestionID: fables-02-7
-Answer: dear friend the world those ugly horns
+Answer: But dear friend in the world those ugly horns
 
 QuestionID: fables-02-8
-Answer: a fat bull
+Answer: once was a fat bull
 
 QuestionID: fables-02-9
-Answer: A watched bull and salivated because wanted to eat .
+Answer: A lion watched the bull and salivated because the lion wanted eat the bull
 
 QuestionID: fables-02-10
-Answer: because feared sharp every horn of .
+Answer: The lion did n't attack the bull because the lion feared sharp every horn of the bull
 
 QuestionID: fables-02-11
-Answer: A watched bull and salivated because wanted to eat .
+Answer: A lion watched the bull and salivated because the lion wanted eat the bull
 
 QuestionID: blogs-01-1
-Answer: A meeting named started on eventful today .
+Answer: A summit meeting named G20 summit started on eventful today
 
 QuestionID: blogs-01-2
-Answer: A G20 started on eventful today .
+Answer: A summit meeting named G20 summit started on eventful today
 
 QuestionID: blogs-01-3
-Answer: A summit meeting named G20 started on eventful today .
+Answer: A summit meeting named G20 summit started on eventful today
 
 QuestionID: blogs-01-4
-Answer: A protested because it disagreed about a view .
+Answer: A people protested because disagreed about a view
 
 QuestionID: blogs-01-5
-Answer: The people riot
+Answer: The people rebelled and created riot
 
 QuestionID: blogs-01-6
-Answer: The people riot
+Answer: The people rebelled and created riot
 
 QuestionID: blogs-01-7
-Answer: The people burned and threw thing at .
+Answer: The people burned a police car and threw a thing at a police
 
 QuestionID: blogs-01-8
-Answer: The people a police car thing
+Answer: The people burned a police car and threw a thing at a police
 
 QuestionID: blogs-01-9
-Answer: The people a police car and threw thing at .
+Answer: The people burned a police car and threw a thing at a police
 
 QuestionID: blogs-01-10
-Answer: were burned and things thrown at cops .
+Answer: Police cars were burned and things were thrown at cops
 
 QuestionID: blogs-01-11
-Answer: As things got worse tear gas and bean bag bullets were at the rioters while they smash windows of stores .
+Answer: As things got tear gas and bean bag bullets were fired at the rioters while windows of stores
 
 QuestionID: blogs-01-12
-Answer: As things got worse tear gas and bean bag bullets were while they smash windows of stores .
+Answer: As things got tear gas and bean bag bullets were fired at the rioters while windows of stores
 
 QuestionID: blogs-01-13
-Answer: Today a very eventful work day .
+Answer: Today was a very eventful work day
 

@@ -2,6 +2,7 @@ import zipfile
 import os
 import re
 import nltk
+from nltk import Tree
 from collections import OrderedDict
 # from read_write_stub import getQA
 # from baseline_stub import get_bow
@@ -17,6 +18,41 @@ def file_write(file_name, text_list):
     f.close()
 
 
+# def read_con_parse(parse_file):
+#     fh = open(parse_file, 'r')
+#     lines = fh.readlines()
+#     fh.close()
+#     return [nltk.Tree.parse(line) for line in lines]
+
+
+def filterResponse(answer_pos_tag):
+    # IN, DT, NN, IN, DT NN,
+    # DT, NN, IN, NN
+    # DT, NNP, CC, DT, NNP
+    # DT, NN
+    # DT, JJ, NNP
+    # DT, NNP
+    # IN, DT, NN, RB, VBD
+    # TO, VB, DT, NN
+    # IN, DT, NN, FBD, JJ, DT, NN, IN, DT, NN
+    # IN, JJ, NN
+    # NNP, NN
+    # DT, NNS, VBD
+    # VBD
+    # DT, NNS
+    # DT, NN, NN
+    # VBD, VBN
+    # JJ, NN, NNS
+    # NNS, IN, NNS
+    acceptable_list = ['IN', 'DT', 'NN', 'CC', 'NNP',
+                       'JJ', 'RB', 'VBD', 'FBD', 'NNS', 'VBN', 'VB']
+    filtered_response = []
+    for a in answer_pos_tag:
+        if a[1] in acceptable_list:
+            filtered_response.append(a[0])
+    return filtered_response
+
+
 if __name__ == '__main__':
     output_file_name = 'train_my_answers.txt'
     output_text = []
@@ -28,18 +64,26 @@ if __name__ == '__main__':
         for i in range(0, size):
             # File format as fables-01, fables-11
             fname = "{0}-{1:02d}".format(cname, i + 1)
-            #print("File Name: " + fname)
+            # question_par_filename = fname + ".questions.par"
+            # question_parse_list = read_con_parse(question_par_filename)
+            # # print(question_parse_list)
+            # story_par_filename = fname + ".story.par"
+            # story_parse_list = read_con_parse(story_par_filename)
+            # print("File Name: " + fname)
             data_dict = read_write_stub.get_data_dict(fname)
 
             questions = read_write_stub.getQA("{}.questions".format(fname))
             for j in range(0, len(questions)):
                 qname = "{0}-{1}".format(fname, j + 1)
                 if qname in questions:
-                    #print("QuestionID: " + qname)
+                    # print("QuestionID: " + qname)
 
                     question = questions[qname]['Question']
+                    question_postag = nltk.pos_tag(
+                        nltk.word_tokenize(question))
 
                     question_line = "QuestionID: {}".format(qname)
+                    # print(question_postag)
                     output_text.append(question_line)
 
                     # Getting the story filename
@@ -57,13 +101,22 @@ if __name__ == '__main__':
 
                     # Gets sentences
                     sentences = baseline_stub.get_sentences(raw_text)
-
                     answer = baseline_stub.baseline(qbow, sentences, stopwords)
-                    removed_question_words = baseline_stub.removeQuestionWords(
-                        question, answer)
-                    answer_text = " ".join(t for t in removed_question_words)
+                    answer_default = " ".join(t[0] for t in answer)
+
+                    # FILTERING
+                    filtered_answer = filterResponse(answer)
+                    filtered_text = " ".join(t for t in filtered_answer)
+
+                    # REMOVE QUESTION WORDS
+                    # removed_question_words = baseline_stub.removeQuestionWords(
+                    #     question, answer)
+                    # answer_text = " ".join(t for t in removed_question_words)
+
                     answer_prepend = "Answer: "
-                    answer_total = answer_prepend + answer_text
-                    output_text.append(answer_total+'\n')
-                    # print(answer)
+
+                    # COMPARE TO DEFAULT HERE
+                    answer_total = answer_prepend + filtered_text  # FILTERED
+                    # answer_total = answer_prepend + answer_default # DEFAULT
+                    output_text.append(answer_total + '\n')
     file_write(output_file_name, output_text)

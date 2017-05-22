@@ -9,6 +9,7 @@ Modified on May 21, 2015
 import sys
 import nltk
 import operator
+from nltk.stem.lancaster import LancasterStemmer
 
 # Read the file from disk
 
@@ -83,6 +84,14 @@ def removeQuestionWords(question, answer):
     return removed_list
 
 
+def get_stems(word_list):
+    st = LancasterStemmer()
+    stem_list = []
+    for w in word_list:
+        stem_list.append(st.stem(w))
+    return set(stem_list)
+
+
 def baseline(qbow, sentences, stopwords):
     # Collect all the candidate answers
     answers = []
@@ -90,11 +99,18 @@ def baseline(qbow, sentences, stopwords):
         # A list of all the word tokens in the sentence
         sbow = get_bow(sent, stopwords)
 
+        # Stemming Overlap
+        q_stems = get_stems(qbow)
+        s_stems = get_stems(sbow)
+        stem_overlap = len(q_stems & s_stems)
+
         # Count the # of overlapping words between the Q and the A
         # & is the set intersection operator
         overlap = len(qbow & sbow)
 
-        answers.append((overlap, sent))
+        # TOGGLE STEMMING HERE
+        # answers.append((overlap, sent)) # DEFAULT
+        answers.append((stem_overlap, sent))  # STEMMING
 
     # Sort the results by the first element of the tuple (i.e., the count)
     # Sort answers from smallest to largest by default, so reverse it

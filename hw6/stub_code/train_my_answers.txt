@@ -50,7 +50,7 @@ QuestionID: fables-02-10
 Answer: The lion did n't attack the bull because the lion feared sharp every horn of the bull
 
 QuestionID: fables-02-11
-Answer: A lion watched the bull and salivated because the lion wanted eat the bull
+Answer: The lion did n't attack the bull because the lion feared sharp every horn of the bull
 
 QuestionID: blogs-01-1
 Answer: A summit meeting named G20 summit started on eventful today
@@ -59,10 +59,10 @@ QuestionID: blogs-01-2
 Answer: A summit meeting named G20 summit started on eventful today
 
 QuestionID: blogs-01-3
-Answer: A summit meeting named G20 summit started on eventful today
+Answer: G20 summit happened annually
 
 QuestionID: blogs-01-4
-Answer: A people protested because disagreed about a view
+Answer: The people burned a police car and threw a thing at a police
 
 QuestionID: blogs-01-5
 Answer: The people rebelled and created riot
@@ -89,5 +89,5 @@ QuestionID: blogs-01-12
 Answer: As things got tear gas and bean bag bullets were fired at the rioters while windows of stores
 
 QuestionID: blogs-01-13
-Answer: Today was a very eventful work day
+Answer: As things got tear gas and bean bag bullets were fired at the rioters while windows of stores
 

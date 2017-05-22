@@ -81,6 +81,7 @@ if __name__ == '__main__':
                     question = questions[qname]['Question']
                     question_postag = nltk.pos_tag(
                         nltk.word_tokenize(question))
+                    print(question)
 
                     question_line = "QuestionID: {}".format(qname)
                     # print(question_postag)
@@ -117,6 +118,7 @@ if __name__ == '__main__':
 
                     # COMPARE TO DEFAULT HERE
                     answer_total = answer_prepend + filtered_text  # FILTERED
-                    # answer_total = answer_prepend + answer_default # DEFAULT
+                    # answer_total = answer_prepend + answer_default  # DEFAULT
+                    print(answer_total)
                     output_text.append(answer_total + '\n')
     file_write(output_file_name, output_text)

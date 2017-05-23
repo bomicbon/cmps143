@@ -81,9 +81,10 @@ if __name__ == '__main__':
                     question = questions[qname]['Question']
                     question_postag = nltk.pos_tag(
                         nltk.word_tokenize(question))
-                    print(question)
+                    # print(question)
 
                     question_line = "QuestionID: {}".format(qname)
+                    # print(question_line)
                     # print(question_postag)
                     output_text.append(question_line)
 
@@ -103,6 +104,7 @@ if __name__ == '__main__':
                     # Gets sentences
                     sentences = baseline_stub.get_sentences(raw_text)
                     answer = baseline_stub.baseline(qbow, sentences, stopwords)
+                    # print(answer)
                     answer_default = " ".join(t[0] for t in answer)
 
                     # FILTERING
@@ -119,6 +121,6 @@ if __name__ == '__main__':
                     # COMPARE TO DEFAULT HERE
                     answer_total = answer_prepend + filtered_text  # FILTERED
                     # answer_total = answer_prepend + answer_default  # DEFAULT
-                    print(answer_total)
+                    # print(answer_total)
                     output_text.append(answer_total + '\n')
     file_write(output_file_name, output_text)

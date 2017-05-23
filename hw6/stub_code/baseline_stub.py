@@ -10,25 +10,23 @@ import sys
 import nltk
 import operator
 from nltk.stem.lancaster import LancasterStemmer
+import re
+import pprint
+
 
 # Read the file from disk
-
-
 def read_file(filename):
     fh = open(filename, 'r')
     text = fh.read()
     fh.close()
-
     return text
 
+
 # The standard NLTK pipeline for POS tagging a document
-
-
 def get_sentences(text):
     sentences = nltk.sent_tokenize(text)
     sentences = [nltk.word_tokenize(sent) for sent in sentences]
     sentences = [nltk.pos_tag(sent) for sent in sentences]
-
     return sentences
 
 
@@ -41,6 +39,20 @@ def find_phrase(tagged_tokens, qbow):
         word = (tagged_tokens[i])[0]
         if word in qbow:
             return tagged_tokens[i + 1:]
+
+
+def information_extraction_architecture(info_type):
+    relations = []  # (e1, re1, e2) in locs
+    query = [e1 for (e1, re1, e2) in locs if e2 == info_type]
+    return query
+
+
+def get_chunks(grammar, sentence):
+    cp = nltk.RegexpParser(grammar)
+    tree = cp.parse(sentence)
+    for subtree in tree.subtrees():
+        if subtree.label() == 'NP':
+            print(subtree)
 
 
 # qtokens: is a list of pos tagged question tokens with SW removed
@@ -96,6 +108,9 @@ def baseline(qbow, sentences, stopwords):
     # Collect all the candidate answers
     answers = []
     for sent in sentences:
+        # grammar = "NP: {<DT>?<JJ>*<NN>}"
+        # get_chunks(grammar, sent)
+
         # A list of all the word tokens in the sentence
         sbow = get_bow(sent, stopwords)
 
@@ -122,13 +137,12 @@ def baseline(qbow, sentences, stopwords):
 
 if __name__ == '__main__':
     text_file = "fables-01.sch"
-
     stopwords = set(nltk.corpus.stopwords.words("english"))
     text = read_file(text_file)
     question = "Where was the crow sitting?"
     # qbow contains the bag of words for the answer
     qbow = get_bow(get_sentences(question)[0], stopwords)
-    sentences = get_sentences(text)
+    sentences = get_sentences(text)  # preprocesses text
     # baseline finds the most overlapped sequence from qbow
     answer = baseline(qbow, sentences, stopwords)
 

@@ -71,10 +71,10 @@ if __name__ == '__main__':
     
     # Create our pattern
     pattern = nltk.ParentedTree.fromstring("(VP (*) (PP))")
-    
+
     # # Match our pattern to the tree  
     subtree = pattern_matcher(pattern, tree)
-    # print(" ".join(subtree.leaves()))
+    print(" ".join(subtree.leaves()))
     
     # create a new pattern to match a smaller subset of subtree
     pattern = nltk.ParentedTree.fromstring("(PP)")

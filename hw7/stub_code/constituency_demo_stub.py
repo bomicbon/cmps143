@@ -12,15 +12,19 @@ from nltk.tree import Tree
 
 
 def process_question_file(parfile):
+    # IN: .par filename
+    # OUT: list of trees
     question_list = read_question(parfile)
     tree_list = []
     for line in question_list:
-        tree = make_tree(line)
-        tree_list.append(tree)
-    return tree
+        tree_list.append(make_tree(line))
+    # print(tree_list)
+    return tree_list
 
 
 def read_question(parfile):
+    # IN: .par filename
+    # OUT: list of strings with parse text
     fh = open(parfile, 'r')
     lines = fh.readlines()
     fh.close()
@@ -28,10 +32,13 @@ def read_question(parfile):
     for line in lines:
         if line[0] == '(':
             question_list.append(line)
+            # print(line)
     return question_list
 
 
 def make_tree(line):
+    # IN: string line
+    # OUT: tree
     return Tree.fromstring(line)
 
 

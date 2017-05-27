@@ -1,0 +1,463 @@
+QuestionID: fables-04-1
+QuestionType: Story
+Question String: Who did the Fox invite to dinner?
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VBD did)
+      (NP (DT the) (NNP Fox))
+      (VP (VB invite) (PP (TO to) (NP (NN dinner)))))
+    (. ?)))
+ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+(ROOT
+  (S
+    (NP (DT A) (NNP Fox))
+    (VP
+      (VBD invited)
+      (NP (DT a) (NNP Stork))
+      (PP
+        (TO to)
+        (NP
+          (NP (NN dinner))
+          (, ,)
+          (SBAR
+            (WHPP (IN at) (WHNP (WDT which)))
+            (S
+              (NP
+                (NP (DT the) (JJ only) (NN fare))
+                (VP (VBN provided)))
+              (VP
+                (VBD was)
+                (NP
+                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
+                  (PP (IN of) (NP (NN soup))))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-2
+QuestionType: Story
+Question String: What was the only fare provided?
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VBD was)
+      (NP (DT the) (JJ only) (NN fare))
+      (VP (VBN provided)))
+    (. ?)))
+ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+(ROOT
+  (S
+    (NP (DT A) (NNP Fox))
+    (VP
+      (VBD invited)
+      (NP (DT a) (NNP Stork))
+      (PP
+        (TO to)
+        (NP
+          (NP (NN dinner))
+          (, ,)
+          (SBAR
+            (WHPP (IN at) (WHNP (WDT which)))
+            (S
+              (NP
+                (NP (DT the) (JJ only) (NN fare))
+                (VP (VBN provided)))
+              (VP
+                (VBD was)
+                (NP
+                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
+                  (PP (IN of) (NP (NN soup))))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-3
+QuestionType: Sch
+Question String: Where was some soup served?
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Where))
+    (SQ (VBD was) (NP (DT some) (NN soup)) (VP (VBN served)))
+    (. ?)))
+ANSWER: The fox only served some soup in a flat and large dish .
+(ROOT
+  (S
+    (NP (DT The) (NN fox))
+    (ADVP (RB only))
+    (VP
+      (VBD served)
+      (NP (DT some) (NN soup))
+      (PP
+        (IN in)
+        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
+    (. .)))
+
+
+
+QuestionID: fables-04-4
+QuestionType: Sch
+Question String: Who is the story about?
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ (VBZ is) (NP (DT the) (NN story)) (ADJP (IN about)))
+    (. ?)))
+ANSWER: A clever fox invited a stork to dine .
+(ROOT
+  (S
+    (NP (DT A) (JJ clever) (NN fox))
+    (VP
+      (VBD invited)
+      (NP (DT a) (NN stork) (S (VP (TO to) (VP (VB dine))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-5
+QuestionType: Sch|Story
+Question String: What did the fox do to the soup?
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VBD did)
+      (NP (DT the) (NN fox))
+      (VP (VBP do) (PP (TO to) (NP (DT the) (NN soup)))))
+    (. ?)))
+ANSWER: The fox only served some soup in a flat and large dish .
+(ROOT
+  (S
+    (NP (DT The) (NN fox))
+    (ADVP (RB only))
+    (VP
+      (VBD served)
+      (NP (DT some) (NN soup))
+      (PP
+        (IN in)
+        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
+    (. .)))
+ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+(ROOT
+  (S
+    (NP (DT A) (NNP Fox))
+    (VP
+      (VBD invited)
+      (NP (DT a) (NNP Stork))
+      (PP
+        (TO to)
+        (NP
+          (NP (NN dinner))
+          (, ,)
+          (SBAR
+            (WHPP (IN at) (WHNP (WDT which)))
+            (S
+              (NP
+                (NP (DT the) (JJ only) (NN fare))
+                (VP (VBN provided)))
+              (VP
+                (VBD was)
+                (NP
+                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
+                  (PP (IN of) (NP (NN soup))))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-6
+QuestionType: Sch
+Question String: Why did the fox begin to be hungry and begin to be helpless?
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ
+      (VBD did)
+      (NP (DT the) (NN fox))
+      (VP
+        (VB begin)
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VP (VB be) (ADJP (JJ hungry)))
+              (CC and)
+              (VP
+                (VB begin)
+                (S (VP (TO to) (VP (VB be) (ADJP (JJ helpless)))))))))))
+    (. ?)))
+ANSWER: The fox began to be hungry and began to be helpless because he was n't able to reach some food that was in the pitcher .
+(ROOT
+  (S
+    (NP (DT The) (NN fox))
+    (VP
+      (VP
+        (VBD began)
+        (S (VP (TO to) (VP (VB be) (ADJP (JJ hungry))))))
+      (CC and)
+      (VP
+        (VBD began)
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VB be)
+              (ADJP (JJ helpless))
+              (SBAR
+                (IN because)
+                (S
+                  (NP (PRP he))
+                  (VP
+                    (VBD was)
+                    (RB n't)
+                    (ADJP
+                      (JJ able)
+                      (S
+                        (VP
+                          (TO to)
+                          (VP
+                            (VB reach)
+                            (NP
+                              (NP (DT some) (NN food))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (VP
+                                    (VBD was)
+                                    (PP
+                                      (IN in)
+                                      (NP (DT the) (NN pitcher)))))))))))))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-7
+QuestionType: Sch
+Question String: What did the stork easily fitted the long bill into?
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VBD did)
+      (NP (DT the) (NN stork))
+      (VP
+        (ADVP (RB easily))
+        (VBD fitted)
+        (NP (DT the) (JJ long) (NN bill))
+        (PP (IN into))))
+    (. ?)))
+ANSWER: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
+(ROOT
+  (S
+    (NP (DT The) (NN stork))
+    (ADVP (RB easily))
+    (VP
+      (VBD fitted)
+      (NP
+        (NP (DT the) (JJ long) (NN bill))
+        (PP (IN of) (NP (DT the) (NN stork))))
+      (PP
+        (IN into)
+        (NP
+          (NP
+            (DT the)
+            (ADJP (JJ long) (CC and) (JJ narrow))
+            (NN neck))
+          (PP (IN of) (NP (DT the) (NN pitcher))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-8
+QuestionType: Story
+Question String: Why did the Fox sit by hungry and helpless?
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ
+      (VBD did)
+      (NP (DT the) (NNP Fox))
+      (VP
+        (VBP sit)
+        (PP (IN by) (ADJP (JJ hungry) (CC and) (JJ helpless)))))
+    (. ?)))
+ANSWER: Thus , while she enjoyed her dinner , the Fox sat by hungry and helpless , for it was impossible for him to reach the tempting contents of the vessel .
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (SBAR
+      (IN while)
+      (S
+        (NP (PRP she))
+        (VP (VBD enjoyed) (NP (PRP$ her) (NN dinner)))))
+    (, ,)
+    (NP (DT the) (NNP Fox))
+    (VP
+      (VBD sat)
+      (PP (IN by) (ADJP (JJ hungry) (CC and) (JJ helpless)))
+      (, ,)
+      (SBAR
+        (IN for)
+        (S
+          (NP (PRP it))
+          (VP
+            (VBD was)
+            (ADJP (JJ impossible) (PP (IN for) (NP (PRP him))))
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB reach)
+                  (NP
+                    (NP (DT the) (JJ tempting) (NNS contents))
+                    (PP (IN of) (NP (DT the) (NN vessel)))))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-9
+QuestionType: Story
+Question String: What was savoury? 
+(ROOT
+  (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NN savoury))) (. ?)))
+ANSWER: The Fox lapped it up with great relish , but the Stork with her long bill tried in vain to partake of the savoury broth .
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Fox))
+      (VP
+        (VBD lapped)
+        (NP (PRP it))
+        (PRT (RP up))
+        (PP (IN with) (NP (JJ great) (NN relish)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (NNP Stork))
+        (PP (IN with) (NP (PRP$ her) (JJ long) (NN bill))))
+      (VP
+        (VBD tried)
+        (PP (IN in) (NP (JJ vain)))
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VB partake)
+              (PP (IN of) (NP (DT the) (JJ savoury) (NN broth))))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-10
+QuestionType: Sch
+Question String: Who failed to drink some broth?
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VP
+        (VBD failed)
+        (S (VP (TO to) (VP (VB drink) (NP (DT some) (NN broth)))))))
+    (. ?)))
+ANSWER: The stork attempted to drink some savory broth and failed .
+(ROOT
+  (S
+    (NP (DT The) (NN stork))
+    (VP
+      (VP
+        (VBN attempted)
+        (S
+          (VP
+            (TO to)
+            (VP (VB drink) (NP (DT some) (JJ savory) (NN broth))))))
+      (CC and)
+      (VP (VBD failed)))
+    (. .)))
+
+
+
+QuestionID: fables-04-11
+QuestionType: Sch
+Question String: What was the shape of the neck of the pitcher? 
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VBD was)
+      (NP
+        (NP (DT the) (NN shape))
+        (PP
+          (IN of)
+          (NP
+            (NP (DT the) (NN neck))
+            (PP (IN of) (NP (DT the) (NN pitcher)))))))
+    (. ?)))
+ANSWER: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
+(ROOT
+  (S
+    (NP (DT The) (NN stork))
+    (ADVP (RB easily))
+    (VP
+      (VBD fitted)
+      (NP
+        (NP (DT the) (JJ long) (NN bill))
+        (PP (IN of) (NP (DT the) (NN stork))))
+      (PP
+        (IN into)
+        (NP
+          (NP
+            (DT the)
+            (ADJP (JJ long) (CC and) (JJ narrow))
+            (NN neck))
+          (PP (IN of) (NP (DT the) (NN pitcher))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-12
+QuestionType: Sch
+Question String: What was clever?
+(ROOT
+  (SBARQ (WHNP (WP What)) (SQ (VBD was) (ADJP (JJ clever))) (. ?)))
+ANSWER: A clever fox invited a stork to dine .
+(ROOT
+  (S
+    (NP (DT A) (JJ clever) (NN fox))
+    (VP
+      (VBD invited)
+      (NP (DT a) (NN stork) (S (VP (TO to) (VP (VB dine))))))
+    (. .)))
+
+
+
+QuestionID: fables-04-13
+QuestionType: Sch
+Question String: What was the soup served in? 
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VBD was)
+      (NP
+        (NP (DT the) (NN soup))
+        (SBAR (S (VP (VBD served) (PP (IN in)))))))
+    (. ?)))
+ANSWER: The fox only served some soup in a flat and large dish .
+(ROOT
+  (S
+    (NP (DT The) (NN fox))
+    (ADVP (RB only))
+    (VP
+      (VBD served)
+      (NP (DT some) (NN soup))
+      (PP
+        (IN in)
+        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
+    (. .)))
+
+
+
+

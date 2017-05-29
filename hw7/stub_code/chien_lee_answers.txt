@@ -1,0 +1,384 @@
+QuestionID: fables-01-1
+Answer: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+QuestionID: fables-01-2
+Answer: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+QuestionID: fables-01-3
+Answer: some way of getting the cheese
+
+QuestionID: fables-01-4
+Answer: A fox observed the crow and tried to discover how to get the cheese .
+
+QuestionID: fables-01-5
+Answer: A fox observed the crow and tried to discover how to get the cheese .
+
+QuestionID: fables-01-6
+Answer: There once was a crow .
+
+QuestionID: fables-01-7
+Answer: him
+
+QuestionID: fables-01-8
+Answer: There once was a crow .
+
+QuestionID: fables-01-9
+Answer: Some cheese was in the beak of the crow .
+
+QuestionID: fables-01-10
+Answer: some way of getting the cheese
+
+QuestionID: fables-01-11
+Answer: the cheese
+
+QuestionID: fables-01-12
+Answer: The fox said that the beauty of the bird was incomparable .
+
+QuestionID: fables-01-13
+Answer: The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing .
+
+QuestionID: fables-02-1
+Answer: him
+
+QuestionID: fables-02-2
+Answer: this flattery
+
+QuestionID: fables-02-3
+Answer: There once was a fat bull .
+
+QuestionID: fables-02-4
+Answer: The bull
+
+QuestionID: fables-02-5
+Answer: the bull
+
+QuestionID: fables-02-6
+Answer: The lion walked toward the bull and began to feign that the lion was friendly .
+
+QuestionID: fables-02-7
+Answer: my dear friend , what in the world makes you
+
+QuestionID: fables-02-8
+Answer: my dear friend , what in the world makes you
+
+QuestionID: fables-02-9
+Answer: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+QuestionID: fables-02-10
+Answer: The lion did n't attack the bull because the lion feared sharp every horn of the bull .
+
+QuestionID: fables-02-11
+Answer: The lion did n't attack the bull because the lion feared sharp every horn of the bull .
+
+QuestionID: fables-02-12
+Answer: But , my dear friend , what in the world makes you wear those ugly horns ?
+
+QuestionID: fables-02-13
+Answer: the bull
+
+QuestionID: fables-02-14
+Answer: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+QuestionID: fables-02-15
+Answer: The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly .
+
+QuestionID: fables-02-16
+Answer: The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly .
+
+QuestionID: fables-02-17
+Answer: The lion began to be hungry and decided to attempt to kill the bull .
+
+QuestionID: fables-02-18
+Answer: The lion
+
+QuestionID: fables-03-1
+Answer: it
+
+QuestionID: fables-03-2
+Answer: it
+
+QuestionID: fables-03-3
+Answer: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+
+QuestionID: fables-03-4
+Answer: a witness of the encounter
+
+QuestionID: fables-03-5
+Answer: An eagle swooped toward a serpent and seized it in order for he to devour it .
+
+QuestionID: fables-03-6
+Answer: The serpent spat some poison in the drinking vessel .
+
+QuestionID: fables-03-7
+Answer: The countryman decided to sip from the drinking vessel .
+
+QuestionID: fables-03-8
+Answer: The eagle
+
+QuestionID: fables-03-9
+Answer: The eagle spilled the drinking vessel .
+
+QuestionID: fables-03-10
+Answer: Heated with his exertions , the man was about to slake his thirst with a draught from the horn , when the Eagle knocked it out of his hand , and spilled its contents upon the ground .
+
+QuestionID: fables-03-11
+Answer: Heated with his exertions , the man was about to slake his thirst with a draught from the horn , when the Eagle knocked it out of his hand , and spilled its contents upon the ground .
+
+QuestionID: fables-03-12
+Answer: the Serpent spat some of his poison into the man 's drinking-horn
+
+QuestionID: fables-03-13
+Answer: it
+
+QuestionID: fables-03-14
+Answer: The eagle
+
+QuestionID: fables-03-15
+Answer: a witness of the encounter
+
+QuestionID: fables-03-16
+Answer: a witness of the encounter
+
+QuestionID: fables-03-17
+Answer: A countryman who owned a drinking vessel tried to help the eagle to escape .
+
+QuestionID: fables-03-18
+Answer: a witness of the encounter
+
+QuestionID: fables-03-19
+Answer: A countryman who owned a drinking vessel tried to help the eagle to escape .
+
+QuestionID: fables-03-20
+Answer: the Serpent spat some of his poison into the man 's drinking-horn
+
+QuestionID: fables-03-21
+Answer: his exertions
+
+QuestionID: fables-04-1
+Answer: A Fox
+
+QuestionID: fables-04-2
+Answer: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+
+QuestionID: fables-04-3
+Answer: The fox only served some soup in a flat and large dish .
+
+QuestionID: fables-04-4
+Answer: to dine
+
+QuestionID: fables-04-5
+Answer: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+
+QuestionID: fables-04-6
+Answer: The fox began to be hungry and began to be helpless because he was n't able to reach some food that was in the pitcher .
+
+QuestionID: fables-04-7
+Answer: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
+
+QuestionID: fables-04-8
+Answer: Thus , while she enjoyed her dinner , the Fox sat by hungry and helpless , for it was impossible for him to reach the tempting contents of the vessel .
+
+QuestionID: fables-04-9
+Answer: The Fox lapped it up with great relish , but the Stork with her long bill tried in vain to partake of the savoury broth .
+
+QuestionID: fables-04-10
+Answer: some savory broth
+
+QuestionID: fables-04-11
+Answer: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
+
+QuestionID: fables-04-12
+Answer: A clever fox invited a stork to dine .
+
+QuestionID: fables-04-13
+Answer: The fox only served some soup in a flat and large dish .
+
+QuestionID: blogs-01-1
+Answer: A summit meeting named G20 summit started on eventful today .
+
+QuestionID: blogs-01-2
+Answer: A summit meeting named G20 summit started on eventful today .
+
+QuestionID: blogs-01-3
+Answer: G20 summit happened annually .
+
+QuestionID: blogs-01-4
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-5
+Answer: The people
+
+QuestionID: blogs-01-6
+Answer: The people
+
+QuestionID: blogs-01-7
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-8
+Answer: The people
+
+QuestionID: blogs-01-9
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-10
+Answer: Police cars were burned and things were thrown at cops .
+
+QuestionID: blogs-01-11
+Answer: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+QuestionID: blogs-01-12
+Answer: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+QuestionID: blogs-01-13
+Answer: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+QuestionID: blogs-01-14
+Answer: The police
+
+QuestionID: blogs-01-15
+Answer: things
+
+QuestionID: blogs-01-16
+Answer: A people protested because it disagreed about a view .
+
+QuestionID: blogs-01-17
+Answer: The people rebelled and created riot .
+
+QuestionID: blogs-01-18
+Answer: Police were in full riot gear to alleviate the violence .
+
+QuestionID: blogs-02-1
+Answer: The young man
+
+QuestionID: blogs-02-2
+Answer: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+QuestionID: blogs-02-3
+Answer: him
+
+QuestionID: blogs-02-4
+Answer: The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him .
+
+QuestionID: blogs-02-5
+Answer: The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep .
+
+QuestionID: blogs-02-6
+Answer: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+QuestionID: blogs-02-7
+Answer: his new flashlight
+
+QuestionID: blogs-02-8
+Answer: A young man
+
+QuestionID: blogs-02-9
+Answer: The narrator
+
+QuestionID: blogs-02-10
+Answer: A young man
+
+QuestionID: blogs-02-11
+Answer: The narrator began to wonder that the flash was an orb
+
+QuestionID: blogs-02-12
+Answer: The narrator saw some bright flash in a group of trees that was above the narrator .
+
+QuestionID: blogs-02-13
+Answer: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+
+QuestionID: blogs-02-14
+Answer: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+QuestionID: blogs-02-15
+Answer: A young man
+
+QuestionID: blogs-02-16
+Answer: the young man
+
+QuestionID: blogs-03-1
+Answer: Louisiana was adversely affected by Hurricane Gustav .
+
+QuestionID: blogs-03-2
+Answer: The storm rolled in on Monday , September 1 , in the morning .
+
+QuestionID: blogs-03-3
+Answer: Winds started kicking up .
+
+QuestionID: blogs-03-4
+Answer: the damage
+
+QuestionID: blogs-03-5
+Answer: Once , storm was occurring in Louisiana .
+
+QuestionID: blogs-03-6
+Answer: The narrator went back to a store named Home Depot in order to purchase a portable generator .
+
+QuestionID: blogs-03-7
+Answer: An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees .
+
+QuestionID: blogs-03-8
+Answer: The narrator began to be nervous because it owned a group of trees and near the house of the narrator .
+
+QuestionID: blogs-03-9
+Answer: The narrator began to be concerned because -- if the first tree were to later fall , and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged , and the family of the narrator would begin to be wounded .
+
+QuestionID: blogs-03-10
+Answer: The narrator
+
+QuestionID: blogs-03-11
+Answer: trees
+
+QuestionID: blogs-03-12
+Answer: The tree split apart and fell on the yard of a neighbor .
+
+QuestionID: blogs-03-13
+Answer: The narrator
+
+QuestionID: blogs-03-14
+Answer: The narrator began to be concerned because -- if the first tree were to later fall , and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged , and the family of the narrator would begin to be wounded .
+
+QuestionID: blogs-03-15
+Answer: My wife , our five children , and our dog ,
+
+QuestionID: blogs-04-1
+Answer: The squirrel
+
+QuestionID: blogs-04-2
+Answer: The squirrel
+
+QuestionID: blogs-04-3
+Answer: The squirrel 's paw slipped off the deck 's railing .
+
+QuestionID: blogs-04-4
+Answer: The birds bathed themselves in the bowl .
+
+QuestionID: blogs-04-5
+Answer: it
+
+QuestionID: blogs-04-6
+Answer: hanging on
+
+QuestionID: blogs-04-7
+Answer: This is one of those times I wish I had a digital camera .
+
+QuestionID: blogs-04-8
+Answer: it
+
+QuestionID: blogs-04-9
+Answer: The birds literally line up on the railing and wait their turn .
+
+QuestionID: blogs-04-10
+Answer: The narrator placed the bowl on the deck in order for Benjamin to drink the bowl 's water .
+
+QuestionID: blogs-04-11
+Answer: The squirrels drank the bowl 's water .
+
+QuestionID: blogs-04-12
+Answer: The narrator placed the bowl on the deck in order for Benjamin to drink the bowl 's water .
+
+QuestionID: blogs-04-13
+Answer: The birds organized themselves on the deck 's railing in order for the birds to wait .
+
+QuestionID: blogs-04-14
+Answer: We keep a large stainless steel bowl of water outside on the back deck for Benjamin to drink out of when he 's playing outside .
+

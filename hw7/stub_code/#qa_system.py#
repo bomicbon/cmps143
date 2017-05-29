@@ -113,7 +113,8 @@ def find_phrase(question_type, answer_tree):
         if check_tree is not None:
             current_tree = check_tree
         else:  # check_tree returned NONE
-            pass
+                print("NONE")
+                none_count += 1
     return " ".join(current_tree.leaves())
 
 

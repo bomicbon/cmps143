@@ -1,463 +1,700 @@
+QuestionID: fables-01-1
+QuestionType: Story
+Question String: Where was the crow sitting?
+ANSWER: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+
+
+QuestionID: fables-01-2
+QuestionType: Story
+Question String: What did the crow have in her beak?
+ANSWER: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+
+
+QuestionID: fables-01-3
+QuestionType: Story
+Question String: Who is the Story about?
+ANSWER: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+
+
+QuestionID: fables-01-4
+QuestionType: Sch
+Question String: What did the fox do to the cheese?
+ANSWER: A fox observed the crow and tried to discover how to get the cheese .
+
+
+
+QuestionID: fables-01-5
+QuestionType: Sch
+Question String: Where was the fox standing?
+ANSWER: A fox observed the crow and tried to discover how to get the cheese .
+
+
+
+QuestionID: fables-01-6
+QuestionType: Sch
+Question String: What did the crow feel?
+ANSWER: There once was a crow .
+
+
+
+QuestionID: fables-01-7
+QuestionType: Sch
+Question String: Who flattered the crow?
+ANSWER: The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing .
+
+
+
+QuestionID: fables-01-8
+QuestionType: Sch
+Question String: What was the crow doing?
+ANSWER: There once was a crow .
+
+
+
+QuestionID: fables-01-9
+QuestionType: Sch
+Question String: Where was the cheese? 
+ANSWER: Some cheese was in the beak of the crow .
+
+
+
+QuestionID: fables-01-10
+QuestionType: Story
+Question String: Who set his wits to work? 
+ANSWER: A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese .
+
+
+
+QuestionID: fables-01-11
+QuestionType: Sch
+Question String: Who tried to discover how to get the cheese?  
+ANSWER: A fox observed the crow and tried to discover how to get the cheese .
+
+
+
+QuestionID: fables-01-12
+QuestionType: Sch
+Question String: What did the fox say about the birdâs beauty?    
+ANSWER: The fox said that the beauty of the bird was incomparable .
+
+
+
+QuestionID: fables-01-13
+QuestionType: Sch
+Question String: How did the crow caw?     
+ANSWER: The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing .
+
+
+
+
+QuestionID: fables-02-1
+QuestionType: Story
+Question String: Who was feeding in a meadow?
+ANSWER: A Lion watched a fat Bull feeding in a meadow , and his mouth watered when he thought of the royal feast he would make , but he did not dare to attack him , for he was afraid of his sharp horns .
+
+
+
+QuestionID: fables-02-2
+QuestionType: Story
+Question String: Who was persuaded by this flattery?
+ANSWER: The Bull was foolish enough to be persuaded by this flattery to have his horns cut off ; and , having now lost his only means of defense , fell an easy prey to the Lion .
+
+
+
+QuestionID: fables-02-3
+QuestionType: Sch
+Question String: Where was the bull?
+ANSWER: There once was a fat bull .
+
+
+
+QuestionID: fables-02-4
+QuestionType: Sch
+Question String: Who was grazing?
+ANSWER: The bull was grazing in a meadow .
+
+
+
+QuestionID: fables-02-5
+QuestionType: Sch
+Question String: Who watched the bull?
+ANSWER: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+
+
+QuestionID: fables-02-6
+QuestionType: Sch
+Question String: What did the lion feign?
+ANSWER: The lion walked toward the bull and began to feign that the lion was friendly .
+
+
+
+QuestionID: fables-02-7
+QuestionType: Story
+Question String: Who is the story about?
+ANSWER: But , my dear friend , what in the world makes you wear those ugly horns ?
+
+
+
+QuestionID: fables-02-8
+QuestionType: Story
+Question String: Who was foolish?
+ANSWER: But , my dear friend , what in the world makes you wear those ugly horns ?
+
+
+
+QuestionID: fables-02-9
+QuestionType: Sch
+Question String: What did the lion want?
+ANSWER: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+
+
+QuestionID: fables-02-10
+QuestionType: Sch
+Question String: Why did not the lion attack the bull?
+ANSWER: The lion did n't attack the bull because the lion feared sharp every horn of the bull .
+
+
+
+QuestionID: fables-02-11
+QuestionType: Sch
+Question String: What did the lion fear?
+ANSWER: The lion did n't attack the bull because the lion feared sharp every horn of the bull .
+
+
+
+QuestionID: fables-02-12
+QuestionType: Story
+Question String: What is ugly? 
+ANSWER: But , my dear friend , what in the world makes you wear those ugly horns ?
+
+
+
+QuestionID: fables-02-13
+QuestionType: Sch
+Question String: Who salivated? 
+ANSWER: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+
+
+QuestionID: fables-02-14
+QuestionType: Sch
+Question String: Why did the lion salivate? 
+ANSWER: A lion watched the bull and salivated because the lion wanted to eat the bull .
+
+
+
+QuestionID: fables-02-15
+QuestionType: Sch
+Question String: What did the lion advise the bull? 
+ANSWER: The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly .
+
+
+
+QuestionID: fables-02-16
+QuestionType: Sch
+Question String: Why did the lion advise the bull to remove its horns?
+ANSWER: The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly .
+
+
+
+QuestionID: fables-02-17
+QuestionType: Sch
+Question String: What did the lion decide? 
+ANSWER: The lion began to be hungry and decided to attempt to kill the bull .
+
+
+
+QuestionID: fables-02-18
+QuestionType: Sch
+Question String: Who has horns? 
+ANSWER: The lion did n't attack the bull because the lion feared sharp every horn of the bull .
+
+
+
+
+QuestionID: fables-03-1
+QuestionType: Story
+Question String: Who is the story about?
+ANSWER: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+
+
+
+QuestionID: fables-03-2
+QuestionType: Story
+Question String: Who swooped down upon a Serpant?
+ANSWER: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+
+
+
+QuestionID: fables-03-3
+QuestionType: Story
+Question String: What did the Eagle seize it with?
+ANSWER: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+
+
+
+QuestionID: fables-03-4
+QuestionType: Story
+Question String: Who came to the assistance of the Eagle?
+ANSWER: A countryman , who was a witness of the encounter , came to the assistance of the Eagle , and succeeded in freeing him from the Serpent and enabling him to escape .
+
+
+
+QuestionID: fables-03-5
+QuestionType: Story | Sch
+Question String: What did the Serpent spit?
+ANSWER: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+ANSWER: An eagle swooped toward a serpent and seized it in order for he to devour it .
+An eagle swooped toward a serpent and seized it in order for he to devour it .
+An eagle swooped toward a serpent and seized it in order for he to devour it .
+
+
+
+QuestionID: fables-03-6
+QuestionType: Story | Sch
+Question String: Where did the Serpent spit some poison? 
+ANSWER: In revenge the Serpent spat some of his poison into the man 's drinking-horn .
+ANSWER: The serpent spat some poison in the drinking vessel .
+The serpent spat some poison in the drinking vessel .
+The serpent spat some poison in the drinking vessel .
+
+
+
+QuestionID: fables-03-7
+QuestionType: Sch
+Question String: What did the countryman decide?
+ANSWER: The countryman decided to sip from the drinking vessel .
+
+
+
+QuestionID: fables-03-8
+QuestionType: Sch
+Question String: Who spilled the drinking vessel?
+ANSWER: The eagle spilled the drinking vessel .
+
+
+
+QuestionID: fables-03-9
+QuestionType: Sch
+Question String: What did the eagle spill? 
+ANSWER: The eagle spilled the drinking vessel .
+
+
+
+QuestionID: fables-03-10
+QuestionType: Story
+Question String: Where where the contents of the horn spilled? 
+ANSWER: Heated with his exertions , the man was about to slake his thirst with a draught from the horn , when the Eagle knocked it out of his hand , and spilled its contents upon the ground .
+
+
+
+QuestionID: fables-03-11
+QuestionType: Story
+Question String: What was heated?
+ANSWER: Heated with his exertions , the man was about to slake his thirst with a draught from the horn , when the Eagle knocked it out of his hand , and spilled its contents upon the ground .
+
+
+
+QuestionID: fables-03-12
+QuestionType: Story
+Question String: What did the Serpent do in revenge?
+ANSWER: In revenge the Serpent spat some of his poison into the man 's drinking-horn .
+
+
+
+QuestionID: fables-03-13
+QuestionType: Story
+Question String: Who seized it? 
+ANSWER: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
+
+
+
+QuestionID: fables-03-14
+QuestionType: Story | Sch
+Question String: Who had its coils around him? 
+ANSWER: But the Serpent was too quick for him and had its coils round him in a moment ; and then there ensued a life-and-death struggle between the two .
+ANSWER: The eagle fought with the serpent , and the serpent coiled around him .
+The eagle fought with the serpent , and the serpent coiled around him .
+The eagle fought with the serpent , and the serpent coiled around him .
+
+
+
+QuestionID: fables-03-15
+QuestionType: Story
+Question String: Who was a witness of the encounter?
+ANSWER: A countryman , who was a witness of the encounter , came to the assistance of the Eagle , and succeeded in freeing him from the Serpent and enabling him to escape .
+
+
+
+QuestionID: fables-03-16
+QuestionType: Story
+Question String: Who came to the assistance of the Eagle? 
+ANSWER: A countryman , who was a witness of the encounter , came to the assistance of the Eagle , and succeeded in freeing him from the Serpent and enabling him to escape .
+
+
+
+QuestionID: fables-03-17
+QuestionType: Sch
+Question String: What did the countryman own?  
+ANSWER: A countryman who owned a drinking vessel tried to help the eagle to escape .
+
+
+
+QuestionID: fables-03-18
+QuestionType: Story
+Question String: Who succeeded in freeing him? 
+ANSWER: A countryman , who was a witness of the encounter , came to the assistance of the Eagle , and succeeded in freeing him from the Serpent and enabling him to escape .
+
+
+
+QuestionID: fables-03-19
+QuestionType: Sch
+Question String: What did the countryman free the eagle from? 
+ANSWER: A countryman who owned a drinking vessel tried to help the eagle to escape .
+
+
+
+QuestionID: fables-03-20
+QuestionType: Sch | Story
+Question String: What did the Serpent spat?
+ANSWER: The serpent spat some poison in the drinking vessel .
+ANSWER: In revenge the Serpent spat some of his poison into the man 's drinking-horn .
+the Serpent spat some of his poison into the man 's drinking-horn
+the Serpent spat some of his poison into the man 's drinking-horn
+
+
+
+QuestionID: fables-03-21
+QuestionType: Story
+Question String: Who spilled its contents? 
+ANSWER: Heated with his exertions , the man was about to slake his thirst with a draught from the horn , when the Eagle knocked it out of his hand , and spilled its contents upon the ground .
+
+
+
+
 QuestionID: fables-04-1
 QuestionType: Story
 Question String: Who did the Fox invite to dinner?
-(ROOT
-  (SBARQ
-    (WHNP (WP Who))
-    (SQ
-      (VBD did)
-      (NP (DT the) (NNP Fox))
-      (VP (VB invite) (PP (TO to) (NP (NN dinner)))))
-    (. ?)))
 ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
-(ROOT
-  (S
-    (NP (DT A) (NNP Fox))
-    (VP
-      (VBD invited)
-      (NP (DT a) (NNP Stork))
-      (PP
-        (TO to)
-        (NP
-          (NP (NN dinner))
-          (, ,)
-          (SBAR
-            (WHPP (IN at) (WHNP (WDT which)))
-            (S
-              (NP
-                (NP (DT the) (JJ only) (NN fare))
-                (VP (VBN provided)))
-              (VP
-                (VBD was)
-                (NP
-                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
-                  (PP (IN of) (NP (NN soup))))))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-2
 QuestionType: Story
 Question String: What was the only fare provided?
-(ROOT
-  (SBARQ
-    (WHNP (WP What))
-    (SQ
-      (VBD was)
-      (NP (DT the) (JJ only) (NN fare))
-      (VP (VBN provided)))
-    (. ?)))
 ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
-(ROOT
-  (S
-    (NP (DT A) (NNP Fox))
-    (VP
-      (VBD invited)
-      (NP (DT a) (NNP Stork))
-      (PP
-        (TO to)
-        (NP
-          (NP (NN dinner))
-          (, ,)
-          (SBAR
-            (WHPP (IN at) (WHNP (WDT which)))
-            (S
-              (NP
-                (NP (DT the) (JJ only) (NN fare))
-                (VP (VBN provided)))
-              (VP
-                (VBD was)
-                (NP
-                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
-                  (PP (IN of) (NP (NN soup))))))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-3
 QuestionType: Sch
 Question String: Where was some soup served?
-(ROOT
-  (SBARQ
-    (WHADVP (WRB Where))
-    (SQ (VBD was) (NP (DT some) (NN soup)) (VP (VBN served)))
-    (. ?)))
 ANSWER: The fox only served some soup in a flat and large dish .
-(ROOT
-  (S
-    (NP (DT The) (NN fox))
-    (ADVP (RB only))
-    (VP
-      (VBD served)
-      (NP (DT some) (NN soup))
-      (PP
-        (IN in)
-        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
-    (. .)))
 
 
 
 QuestionID: fables-04-4
 QuestionType: Sch
 Question String: Who is the story about?
-(ROOT
-  (SBARQ
-    (WHNP (WP Who))
-    (SQ (VBZ is) (NP (DT the) (NN story)) (ADJP (IN about)))
-    (. ?)))
 ANSWER: A clever fox invited a stork to dine .
-(ROOT
-  (S
-    (NP (DT A) (JJ clever) (NN fox))
-    (VP
-      (VBD invited)
-      (NP (DT a) (NN stork) (S (VP (TO to) (VP (VB dine))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-5
 QuestionType: Sch|Story
 Question String: What did the fox do to the soup?
-(ROOT
-  (SBARQ
-    (WHNP (WP What))
-    (SQ
-      (VBD did)
-      (NP (DT the) (NN fox))
-      (VP (VBP do) (PP (TO to) (NP (DT the) (NN soup)))))
-    (. ?)))
 ANSWER: The fox only served some soup in a flat and large dish .
-(ROOT
-  (S
-    (NP (DT The) (NN fox))
-    (ADVP (RB only))
-    (VP
-      (VBD served)
-      (NP (DT some) (NN soup))
-      (PP
-        (IN in)
-        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
-    (. .)))
 ANSWER: A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
-(ROOT
-  (S
-    (NP (DT A) (NNP Fox))
-    (VP
-      (VBD invited)
-      (NP (DT a) (NNP Stork))
-      (PP
-        (TO to)
-        (NP
-          (NP (NN dinner))
-          (, ,)
-          (SBAR
-            (WHPP (IN at) (WHNP (WDT which)))
-            (S
-              (NP
-                (NP (DT the) (JJ only) (NN fare))
-                (VP (VBN provided)))
-              (VP
-                (VBD was)
-                (NP
-                  (NP (DT a) (JJ large) (JJ flat) (NN dish))
-                  (PP (IN of) (NP (NN soup))))))))))
-    (. .)))
+A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
+A Fox invited a Stork to dinner , at which the only fare provided was a large flat dish of soup .
 
 
 
 QuestionID: fables-04-6
 QuestionType: Sch
 Question String: Why did the fox begin to be hungry and begin to be helpless?
-(ROOT
-  (SBARQ
-    (WHADVP (WRB Why))
-    (SQ
-      (VBD did)
-      (NP (DT the) (NN fox))
-      (VP
-        (VB begin)
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VP (VB be) (ADJP (JJ hungry)))
-              (CC and)
-              (VP
-                (VB begin)
-                (S (VP (TO to) (VP (VB be) (ADJP (JJ helpless)))))))))))
-    (. ?)))
 ANSWER: The fox began to be hungry and began to be helpless because he was n't able to reach some food that was in the pitcher .
-(ROOT
-  (S
-    (NP (DT The) (NN fox))
-    (VP
-      (VP
-        (VBD began)
-        (S (VP (TO to) (VP (VB be) (ADJP (JJ hungry))))))
-      (CC and)
-      (VP
-        (VBD began)
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VB be)
-              (ADJP (JJ helpless))
-              (SBAR
-                (IN because)
-                (S
-                  (NP (PRP he))
-                  (VP
-                    (VBD was)
-                    (RB n't)
-                    (ADJP
-                      (JJ able)
-                      (S
-                        (VP
-                          (TO to)
-                          (VP
-                            (VB reach)
-                            (NP
-                              (NP (DT some) (NN food))
-                              (SBAR
-                                (WHNP (WDT that))
-                                (S
-                                  (VP
-                                    (VBD was)
-                                    (PP
-                                      (IN in)
-                                      (NP (DT the) (NN pitcher)))))))))))))))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-7
 QuestionType: Sch
 Question String: What did the stork easily fitted the long bill into?
-(ROOT
-  (SBARQ
-    (WHNP (WP What))
-    (SQ
-      (VBD did)
-      (NP (DT the) (NN stork))
-      (VP
-        (ADVP (RB easily))
-        (VBD fitted)
-        (NP (DT the) (JJ long) (NN bill))
-        (PP (IN into))))
-    (. ?)))
 ANSWER: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
-(ROOT
-  (S
-    (NP (DT The) (NN stork))
-    (ADVP (RB easily))
-    (VP
-      (VBD fitted)
-      (NP
-        (NP (DT the) (JJ long) (NN bill))
-        (PP (IN of) (NP (DT the) (NN stork))))
-      (PP
-        (IN into)
-        (NP
-          (NP
-            (DT the)
-            (ADJP (JJ long) (CC and) (JJ narrow))
-            (NN neck))
-          (PP (IN of) (NP (DT the) (NN pitcher))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-8
 QuestionType: Story
 Question String: Why did the Fox sit by hungry and helpless?
-(ROOT
-  (SBARQ
-    (WHADVP (WRB Why))
-    (SQ
-      (VBD did)
-      (NP (DT the) (NNP Fox))
-      (VP
-        (VBP sit)
-        (PP (IN by) (ADJP (JJ hungry) (CC and) (JJ helpless)))))
-    (. ?)))
 ANSWER: Thus , while she enjoyed her dinner , the Fox sat by hungry and helpless , for it was impossible for him to reach the tempting contents of the vessel .
-(ROOT
-  (S
-    (ADVP (RB Thus))
-    (, ,)
-    (SBAR
-      (IN while)
-      (S
-        (NP (PRP she))
-        (VP (VBD enjoyed) (NP (PRP$ her) (NN dinner)))))
-    (, ,)
-    (NP (DT the) (NNP Fox))
-    (VP
-      (VBD sat)
-      (PP (IN by) (ADJP (JJ hungry) (CC and) (JJ helpless)))
-      (, ,)
-      (SBAR
-        (IN for)
-        (S
-          (NP (PRP it))
-          (VP
-            (VBD was)
-            (ADJP (JJ impossible) (PP (IN for) (NP (PRP him))))
-            (S
-              (VP
-                (TO to)
-                (VP
-                  (VB reach)
-                  (NP
-                    (NP (DT the) (JJ tempting) (NNS contents))
-                    (PP (IN of) (NP (DT the) (NN vessel)))))))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-9
 QuestionType: Story
 Question String: What was savoury? 
-(ROOT
-  (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NN savoury))) (. ?)))
 ANSWER: The Fox lapped it up with great relish , but the Stork with her long bill tried in vain to partake of the savoury broth .
-(ROOT
-  (S
-    (S
-      (NP (DT The) (NNP Fox))
-      (VP
-        (VBD lapped)
-        (NP (PRP it))
-        (PRT (RP up))
-        (PP (IN with) (NP (JJ great) (NN relish)))))
-    (, ,)
-    (CC but)
-    (S
-      (NP
-        (NP (DT the) (NNP Stork))
-        (PP (IN with) (NP (PRP$ her) (JJ long) (NN bill))))
-      (VP
-        (VBD tried)
-        (PP (IN in) (NP (JJ vain)))
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VB partake)
-              (PP (IN of) (NP (DT the) (JJ savoury) (NN broth))))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-10
 QuestionType: Sch
 Question String: Who failed to drink some broth?
-(ROOT
-  (SBARQ
-    (WHNP (WP Who))
-    (SQ
-      (VP
-        (VBD failed)
-        (S (VP (TO to) (VP (VB drink) (NP (DT some) (NN broth)))))))
-    (. ?)))
 ANSWER: The stork attempted to drink some savory broth and failed .
-(ROOT
-  (S
-    (NP (DT The) (NN stork))
-    (VP
-      (VP
-        (VBN attempted)
-        (S
-          (VP
-            (TO to)
-            (VP (VB drink) (NP (DT some) (JJ savory) (NN broth))))))
-      (CC and)
-      (VP (VBD failed)))
-    (. .)))
 
 
 
 QuestionID: fables-04-11
 QuestionType: Sch
 Question String: What was the shape of the neck of the pitcher? 
-(ROOT
-  (SBARQ
-    (WHNP (WP What))
-    (SQ
-      (VBD was)
-      (NP
-        (NP (DT the) (NN shape))
-        (PP
-          (IN of)
-          (NP
-            (NP (DT the) (NN neck))
-            (PP (IN of) (NP (DT the) (NN pitcher)))))))
-    (. ?)))
 ANSWER: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
-(ROOT
-  (S
-    (NP (DT The) (NN stork))
-    (ADVP (RB easily))
-    (VP
-      (VBD fitted)
-      (NP
-        (NP (DT the) (JJ long) (NN bill))
-        (PP (IN of) (NP (DT the) (NN stork))))
-      (PP
-        (IN into)
-        (NP
-          (NP
-            (DT the)
-            (ADJP (JJ long) (CC and) (JJ narrow))
-            (NN neck))
-          (PP (IN of) (NP (DT the) (NN pitcher))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-12
 QuestionType: Sch
 Question String: What was clever?
-(ROOT
-  (SBARQ (WHNP (WP What)) (SQ (VBD was) (ADJP (JJ clever))) (. ?)))
 ANSWER: A clever fox invited a stork to dine .
-(ROOT
-  (S
-    (NP (DT A) (JJ clever) (NN fox))
-    (VP
-      (VBD invited)
-      (NP (DT a) (NN stork) (S (VP (TO to) (VP (VB dine))))))
-    (. .)))
 
 
 
 QuestionID: fables-04-13
 QuestionType: Sch
 Question String: What was the soup served in? 
-(ROOT
-  (SBARQ
-    (WHNP (WP What))
-    (SQ
-      (VBD was)
-      (NP
-        (NP (DT the) (NN soup))
-        (SBAR (S (VP (VBD served) (PP (IN in)))))))
-    (. ?)))
 ANSWER: The fox only served some soup in a flat and large dish .
-(ROOT
-  (S
-    (NP (DT The) (NN fox))
-    (ADVP (RB only))
-    (VP
-      (VBD served)
-      (NP (DT some) (NN soup))
-      (PP
-        (IN in)
-        (NP (DT a) (ADJP (JJ flat) (CC and) (JJ large)) (NN dish))))
-    (. .)))
 
 
 
 
+QuestionID: blogs-01-1
+QuestionType: Sch
+Question String: When did the G20 summit start?
+ANSWER: A summit meeting named G20 summit started on eventful today .
+
+
+
+QuestionID: blogs-01-2
+QuestionType: Sch
+Question String: What is the summit meeting named?
+ANSWER: A summit meeting named G20 summit started on eventful today .
+
+
+
+QuestionID: blogs-01-3
+QuestionType: Story | Sch
+Question String: Where did the protest happen?
+ANSWER: There was a protest that happened along the street where I work and at first it looked peaceful until a bunch of people started rebelling and creating a riot .
+ANSWER: G20 summit happened annually .
+G20 summit happened annually .
+G20 summit happened annually .
+
+
+
+QuestionID: blogs-01-4
+QuestionType: Sch
+Question String: What did the people burn?
+ANSWER: The people burned a police car and threw a thing at a police .
+
+
+
+QuestionID: blogs-01-5
+QuestionType: Sch
+Question String: Who rebelled?
+ANSWER: The people rebelled and created riot .
+
+
+
+QuestionID: blogs-01-6
+QuestionType: Sch
+Question String: Who created a riot?
+ANSWER: The people rebelled and created riot .
+
+
+
+QuestionID: blogs-01-7
+QuestionType: Sch
+Question String: What happened to a police car?
+ANSWER: The people burned a police car and threw a thing at a police .
+
+
+
+QuestionID: blogs-01-8
+QuestionType: Sch
+Question String: Who burned a police car?
+ANSWER: The people burned a police car and threw a thing at a police .
+
+
+
+QuestionID: blogs-01-9
+QuestionType: Story | Sch
+Question String: What was burned?
+ANSWER: Police cars were burned and things were thrown at cops .
+ANSWER: The people burned a police car and threw a thing at a police .
+The people burned a police car and threw a thing at a police .
+The people burned a police car and threw a thing at a police .
+
+
+
+QuestionID: blogs-01-10
+QuestionType: Story
+Question String: What happened to the police cars?
+ANSWER: Police cars were burned and things were thrown at cops .
+
+
+
+QuestionID: blogs-01-11
+QuestionType: Story
+Question String: What was fired?
+ANSWER: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+
+
+QuestionID: blogs-01-12
+QuestionType: Story
+Question String: What was fired at the rioters?
+ANSWER: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+
+
+QuestionID: blogs-01-13
+QuestionType: Story
+Question String: What was smashed?
+ANSWER: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+
+
+QuestionID: blogs-01-14
+QuestionType: Sch
+Question String: Who fired a bullet at the people?
+ANSWER: The police fired a tear gas at the people and fired a bullet at the people , and the people smashed a window .
+
+
+
+QuestionID: blogs-01-15
+QuestionType: Story
+Question String: Who was tear gas fired at?
+ANSWER: As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores .
+
+
+
+QuestionID: blogs-01-16
+QuestionType: Sch
+Question String: Why did the people protest?
+ANSWER: A people protested because it disagreed about a view .
+
+
+
+QuestionID: blogs-01-17
+QuestionType: Sch
+Question String: What did the people create? 
+ANSWER: The people rebelled and created riot .
+
+
+
+QuestionID: blogs-01-18
+QuestionType: Story
+Question String: Why were the police in full riot gear?
+ANSWER: Police were in full riot gear to alleviate the violence .
+
+
+
+
+QuestionID: blogs-02-1
+QuestionType: Story | Sch
+Question String: Who died?
+ANSWER: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+ANSWER: The young man died on the spot of the yard of the narrator .
+The young man died on the spot of the yard of the narrator .
+The young man died on the spot of the yard of the narrator .
+
+
+
+QuestionID: blogs-02-2
+QuestionType: Story | Sch
+Question String: Where did the young man die?
+ANSWER: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+ANSWER: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+
+
+QuestionID: blogs-02-3
+QuestionType: Story
+Question String: Who visited the place where he died?
+ANSWER: Later , when I was visiting the place where he died , I decided to talk to him as if he were still there because I wanted him to know how bad I felt that I couldnt help him .
+
+
+
+QuestionID: blogs-02-4
+QuestionType: Sch
+Question String: Why did the narrator decide to talk to the young man?
+ANSWER: The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him .
+
+
+
+QuestionID: blogs-02-5
+QuestionType: Sch
+Question String: Where did the narrator enter?
+ANSWER: The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep .
+
+
+
+QuestionID: blogs-02-6
+QuestionType: Story | Sch
+Question String: What did the narrator see?
+ANSWER: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+ANSWER: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+
+
+QuestionID: blogs-02-7
+QuestionType: Story
+Question String: Who was snoring? 
+ANSWER: At first , my logical mind thought that it was my brother playing around with his new flashlight ( not at all like it , but the closest thing I could imagine ) And when I went inside the house , everyone was snoring !
+
+
+
+QuestionID: blogs-02-8
+QuestionType: Sch
+Question String: Who crashed the motorbike?
+ANSWER: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+
+
+QuestionID: blogs-02-9
+QuestionType: Sch
+Question String: Who stayed with the young man?
+ANSWER: The narrator stayed with the young man and did n't aid him because the young man had broken the neck of the young man .
+
+
+
+QuestionID: blogs-02-10
+QuestionType: Story | Sch
+Question String: Who is the story about?
+ANSWER: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+ANSWER: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+
+
+QuestionID: blogs-02-11
+QuestionType: Sch
+Question String: What did the narrator begin to wonder?
+ANSWER: The narrator began to wonder that the flash was an orb
+
+
+
+QuestionID: blogs-02-12
+QuestionType: Sch
+Question String: What in a group of trees that was above the narrator?
+ANSWER: The narrator saw some bright flash in a group of trees that was above the narrator .

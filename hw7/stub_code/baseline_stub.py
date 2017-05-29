@@ -9,6 +9,9 @@ Modified on May 21, 2015
 import sys
 import nltk
 import operator
+from nltk.stem.lancaster import LancasterStemmer
+import re
+import pprint
 
 # Read the file from disk
 
@@ -17,7 +20,6 @@ def read_file(filename):
     fh = open(filename, 'r')
     text = fh.read()
     fh.close()
-
     return text
 
 # The standard NLTK pipeline for POS tagging a document
@@ -41,11 +43,18 @@ def find_phrase(tagged_tokens, qbow):
         if word in qbow:
             return tagged_tokens[i + 1:]
 
+
+def get_stems(word_list):
+    st = LancasterStemmer()
+    stem_list = []
+    for w in word_list:
+        stem_list.append(st.stem(w))
+    return set(stem_list)
+
+
 # qtokens: is a list of pos tagged question tokens with SW removed
 # sentences: is a list of pos tagged story sentences
 # stopwords is a set of stopwords
-
-
 def baseline(qbow, sentences, stopwords):
     # Collect all the candidate answers
     answers = []
@@ -53,11 +62,18 @@ def baseline(qbow, sentences, stopwords):
         # A list of all the word tokens in the sentence
         sbow = get_bow(sent, stopwords)
 
+        # Stemming Overlap
+        q_stems = get_stems(qbow)  # stemming question bag of words
+        s_stems = get_stems(sbow)  # stemming sentence bag of words
+        stem_overlap = len(q_stems & s_stems)
+
         # Count the # of overlapping words between the Q and the A
         # & is the set intersection operator
         overlap = len(qbow & sbow)
 
-        answers.append((overlap, sent))
+        # OPTION: TOGGLE STEMMING HERE
+        # answers.append((overlap, sent))
+        answers.append((stem_overlap, sent))
 
     # Sort the results by the first element of the tuple (i.e., the count)
     # Sort answers from smallest to largest by default, so reverse it

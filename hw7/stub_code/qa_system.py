@@ -61,7 +61,7 @@ def get_answer_parse_tree(qtypes, data_dict, question):
         qbow = get_bow(get_sentences(question)[0], stopwords)
         answer = baseline_stub.baseline(qbow, raw_text_list, stopwords)
         answer_string = " ".join(t[0] for t in answer)
-        print("ANSWER: {}".format(answer_string))
+        print("bow ANSWER: {}".format(answer_string))
         for tuple in raw_par_list:
             if tuple[0] == answer:
                 if wait:
@@ -96,20 +96,23 @@ def get_question_type(qtree):
 
 def find_phrase(question_type, answer_tree):
     answer_dict = {}
-    answer_dict['Who'] = ['(S)']
+    answer_dict['Who'] = ['(S(*)(NP))', '(NP)']
     answer_dict['What'] = ['(S)']
     answer_dict['Where'] = ['(S)']
     answer_dict['When'] = ['(S)']
     answer_dict['How'] = ['(S)']
     answer_dict['Why'] = ['(S)']
-
     answer_grammar_list = answer_dict[question_type]
 
     current_tree = answer_tree  # base case
     for grammar in answer_grammar_list:  # going through each pattern string
         pattern = nltk.ParentedTree.fromstring(grammar)
-        subtree = constituency_demo_stub.pattern_matcher(pattern, current_tree)
-        current_tree = subtree  # for traversing down tree
+        check_tree = constituency_demo_stub.pattern_matcher(
+            pattern, current_tree)
+        if check_tree is not None:
+            subtree = constituency_demo_stub.pattern_matcher(
+                pattern, current_tree)
+            current_tree = subtree
     return " ".join(subtree.leaves())
 
 
@@ -147,18 +150,19 @@ def process_command(story_list):
                 answer_tree = answer_parse_tree_data[0]
                 answer_phrase_sch = find_phrase(
                     question_type, answer_tree)
-                print(answer_phrase_sch)
+                print("answer_phrase_sch: {}".format(answer_phrase_sch))
                 # story tree
                 answer_tree = answer_parse_tree_data[1]
                 answer_phrase_story = find_phrase(
                     question_type, answer_tree)
                 print(answer_phrase_story)
+                print("answer_phrase_story: {}".format(answer_phrase_story))
 
             else:
                 answer_phrase = find_phrase(
                     question_type, answer_parse_tree_data)
                 # print(answer_tree)
-                pass
+                print("answer_phrase: {}".format(answer_phrase))
             # print("\n\n")
 
         # trees = [Tree.fromstring(line) for line in sentences]

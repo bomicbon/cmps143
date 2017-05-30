@@ -138,7 +138,7 @@ def process_command(story_list):
             qtypes = questions[qname]['Type']
             # print("QuestionType: " + qtypes)
             question = questions[qname]['Question']
-            print("Question String: " + question)
+            # print("Question String: " + question)
 
             # QUESTION PARSE TREE
             question_parse_tree = get_question_parse_tree(

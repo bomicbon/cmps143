@@ -96,12 +96,15 @@ def get_question_type(qtree):
 
 def find_phrase(question_type, answer_tree):
     answer_dict = {}
-    answer_dict['Who'] = ['(S(*)(NP))', '(NP)']
-    answer_dict['What'] = ['(S)']
-    answer_dict['Where'] = ['(S)']
-    answer_dict['When'] = ['(S)']
+    answer_dict['Who'] = ['(S(NP))','(NP)','(NN)']
+    # sort of works
+    answer_dict['What'] = ['(S(NP)(*)(VP))','(VP(*)(PP))']
+    # answer_dict['What'] = ['(S(NP)(*)(VP))','(VP(*)(PP))','((*)(NP))']
+    answer_dict['Where'] = ['(S(*(PP)))','(PP)']
+    answer_dict['When'] = ['(S(WHADVP))', '(S(ADVP))']
+    # answer_dict['How'] = ['(S(*)(*)(CC)(VP))', '(VP(VBD))']
     answer_dict['How'] = ['(S)']
-    answer_dict['Why'] = ['(S)']
+    answer_dict['Why'] = ['(SBAR)']
     answer_grammar_list = answer_dict[question_type]
     none_count = 0
     current_tree = answer_tree  # base case
@@ -135,19 +138,20 @@ def process_command(story_list):
             qtypes = questions[qname]['Type']
             # print("QuestionType: " + qtypes)
             question = questions[qname]['Question']
-            # print("Question String: " + question)
+            print("Question String: " + question)
 
             # QUESTION PARSE TREE
             question_parse_tree = get_question_parse_tree(
                 qname, data_dict["questions.par"])
             question_type = get_question_type(question_parse_tree)
-            # print("Question Parse Tree: {}\n".format(question_parse_tree))
+            #print("Question Parse Tree: {}\n".format(question_parse_tree))
             # print("WH WORD: {}".format(question_type))
 
             # LIST OF ANSWER PARSE TREES (sch|story) only
             answer_parse_tree_data = get_answer_parse_tree(
                 qtypes, data_dict, question)
             # IF WE HAVE AN SCH|STORY
+            #print("Answer Parse Tree: {}\n".format(answer_parse_tree_data))
             if isinstance(answer_parse_tree_data, tuple):
                 answer_phrase_sch = find_phrase(
                     question_type, answer_parse_tree_data[0])
@@ -162,8 +166,9 @@ def process_command(story_list):
             else:
                 answer_phrase = find_phrase(
                     question_type, answer_parse_tree_data)
-                # print(answer_tree)
+                #print(answer_tree)
                 print("Answer: {}".format(answer_phrase))
+                #print(answer_phrase)
             print()  # new line per question
     sys.stdout = orig_stdout
     f.close()

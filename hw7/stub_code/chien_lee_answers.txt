@@ -1,512 +1,384 @@
-QuestionID: blogs-01-1
-Question String: When did the G20 summit start?
-Answer: A summit meeting named G20 summit started on eventful today .
-
-QuestionID: blogs-01-2
-Question String: What is the summit meeting named?
-Answer: started on eventful today
-
-QuestionID: blogs-01-3
-Question String: Where did the protest happen?
-Answer: G20 summit happened annually .
-
-QuestionID: blogs-01-4
-Question String: What did the people burn?
-Answer: The people burned a police car and threw a thing at a police .
-
-QuestionID: blogs-01-5
-Question String: Who rebelled?
-Answer: The people
-
-QuestionID: blogs-01-6
-Question String: Who created a riot?
-Answer: The people
-
-QuestionID: blogs-01-7
-Question String: What happened to a police car?
-Answer: The people burned a police car and threw a thing at a police .
-
-QuestionID: blogs-01-8
-Question String: Who burned a police car?
-Answer: The people
-
-QuestionID: blogs-01-9
-Question String: What was burned?
-Answer: The people burned a police car and threw a thing at a police .
-
-QuestionID: blogs-01-10
-Question String: What happened to the police cars?
-Answer: burned
-
-QuestionID: blogs-01-11
-Question String: What was fired?
-Answer: things got worse
-
-QuestionID: blogs-01-12
-Question String: What was fired at the rioters?
-Answer: things got worse
-
-QuestionID: blogs-01-13
-Question String: What was smashed?
-Answer: things got worse
-
-QuestionID: blogs-01-14
-Question String: Who fired a bullet at the people?
-Answer: police
-
-QuestionID: blogs-01-15
-Question String: Who was tear gas fired at?
-Answer: things
-
-QuestionID: blogs-01-16
-Question String: Why did the people protest?
-Answer: because it disagreed about a view
-
-QuestionID: blogs-01-17
-Question String: What did the people create? 
-Answer: rebelled
-
-QuestionID: blogs-01-18
-Question String: Why were the police in full riot gear?
-Answer: Police were in full riot gear to alleviate the violence .
-
-QuestionID: blogs-02-1
-Question String: Who died?
-Answer: man
-
-QuestionID: blogs-02-2
-Question String: Where did the young man die?
-Answer: of the young man
-
-QuestionID: blogs-02-3
-Question String: Who visited the place where he died?
-Answer: I
-
-QuestionID: blogs-02-4
-Question String: Why did the narrator decide to talk to the young man?
-Answer: because it wanted the young man to know the narrator regretting that it had not aided him
-
-QuestionID: blogs-02-5
-Question String: Where did the narrator enter?
-Answer: of the narrator
-
-QuestionID: blogs-02-6
-Question String: What did the narrator see?
-Answer: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
-
-QuestionID: blogs-02-7
-Question String: Who was snoring? 
-Answer: it
-
-QuestionID: blogs-02-8
-Question String: Who crashed the motorbike?
-Answer: man
-
-QuestionID: blogs-02-9
-Question String: Who stayed with the young man?
-Answer: narrator
-
-QuestionID: blogs-02-10
-Question String: Who is the story about?
-Answer: man
-
-QuestionID: blogs-02-11
-Question String: What did the narrator begin to wonder?
-Answer: The narrator began to wonder that the flash was an orb
-
-QuestionID: blogs-02-12
-Question String: What in a group of trees that was above the narrator?
-Answer: was above the narrator
-
-QuestionID: blogs-02-13
-Question String: When did the young man die? 
-Answer: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
-
-QuestionID: blogs-02-14
-Question String: Where did the young man crash the motorbike? 
-Answer: of the young man
-
-QuestionID: blogs-02-15
-Question String: Who broke the neck of the young man? 
-Answer: man
-
-QuestionID: blogs-02-16
-Question String: Who decided to talk to the young man? 
-Answer: narrator
-
-QuestionID: blogs-03-1
-Question String: What was Louisiana adversely affected by?
-Answer: affected by Hurricane Gustav
-
-QuestionID: blogs-03-2
-Question String: What rolled in on Monday, September 1, in the morning?
-Answer: rolled in on Monday , September 1 , in the morning
-
-QuestionID: blogs-03-3
-Question String: What started kicking up?
-Answer: Winds started kicking up .
-
-QuestionID: blogs-03-4
-Question String: Who came to Baton Rouge yesterday to assess the damage?
-Answer: President Bush
-
-QuestionID: blogs-03-5
-Question String: Where was the storm occurring?
-Answer: in Louisiana
-
-QuestionID: blogs-03-6
-Question String: Where did the narrator go back to in order to purchase a portable generator?
-Answer: to a store named Home Depot in order to purchase a portable generator
-
-QuestionID: blogs-03-7
-Question String: What did the area of a neighborhood of the narrator have?
-Answer: An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees .
-
-QuestionID: blogs-03-8
-Question String: Why did the narrator begin to be nervous?
-Answer: because it owned a group of trees
-
-QuestionID: blogs-03-9
-Question String: Where did the narrator bring the family of the narrator to?
-Answer: on the house of the narrator
-
-QuestionID: blogs-03-10
-Question String: Who filled the container of some gasoline?
-Answer: narrator
-
-QuestionID: blogs-03-11
-Question String: Who had a group of oak trees?
-Answer: area
-
-QuestionID: blogs-03-12
-Question String: What fell on the yard of a neighbor?
-Answer: fell on the yard of a neighbor
-
-QuestionID: blogs-03-13
-Question String: Who watched a large tree?
-Answer: narrator
-
-QuestionID: blogs-03-14
-Question String: What did the first tree fall onto?
-Answer: were
-
-QuestionID: blogs-03-15
-Question String: Who stayed in an area of the home where we felt safest?
-Answer: wife
-
-QuestionID: blogs-04-1
-Question String: Who approached the bowl?
-Answer: squirrel
-
-QuestionID: blogs-04-2
-Question String: Who fell over the deck's railing
-Answer: squirrel
-
-QuestionID: blogs-04-3
-Question String: What slipped off the deck's railing?
-Answer: The squirrel 's paw slipped off the deck 's railing .
-
-QuestionID: blogs-04-4
-Question String: What did the birds bath themselves in? 
-Answer: The birds bathed themselves in the bowl .
-
-QuestionID: blogs-04-5
-Question String: Who also comes to drink out of it?
-Answer: Squirrels
-
-QuestionID: blogs-04-6
-Question String: Who saw his one little paw hanging on?
-Answer: I
-
-QuestionID: blogs-04-7
-Question String: What did I wish I had?
-Answer: I wish I had a digital camera
-
-QuestionID: blogs-04-8
-Question String: Who drinks out of it and bathes in it?
-Answer: day
-
-QuestionID: blogs-04-9
-Question String: Where do the birds literally line up on?
-Answer: on the railing
-
-QuestionID: blogs-04-10
-Question String: Where did the narrator place the bowl?
-Answer: on the deck in order for Benjamin
-
-QuestionID: blogs-04-11
-Question String: Where did the squirrel fall? 
-Answer: The squirrels drank the bowl 's water .
-
-QuestionID: blogs-04-12
-Question String: Why did the narrator place the bowl on the deck?
-Answer: The narrator placed the bowl on the deck in order for Benjamin to drink the bowl 's water .
-
-QuestionID: blogs-04-13
-Question String: Why did the birds organize themselves?
-Answer: The birds organized themselves on the deck 's railing in order for the birds to wait .
-
-QuestionID: blogs-04-14
-Question String: What did we keep outside on the back deck?
-Answer: he 's playing outside
-
 QuestionID: fables-01-1
-Question String: Where was the crow sitting?
 Answer: on a branch of a tree with a piece of cheese in her beak
 
 QuestionID: fables-01-2
-Question String: What did the crow have in her beak?
 Answer: a Fox observed her and set his wits to work to discover some way of getting the cheese
 
 QuestionID: fables-01-3
-Question String: Who is the Story about?
 Answer: Crow
 
 QuestionID: fables-01-4
-Question String: What did the fox do to the cheese?
 Answer: A fox observed the crow and tried to discover how to get the cheese .
 
 QuestionID: fables-01-5
-Question String: Where was the fox standing?
 Answer: A fox observed the crow and tried to discover how to get the cheese .
 
 QuestionID: fables-01-6
-Question String: What did the crow feel?
 Answer: There once was a crow .
 
 QuestionID: fables-01-7
-Question String: Who flattered the crow?
 Answer: crow
 
 QuestionID: fables-01-8
-Question String: What was the crow doing?
 Answer: There once was a crow .
 
 QuestionID: fables-01-9
-Question String: Where was the cheese? 
 Answer: in the beak of the crow
 
 QuestionID: fables-01-10
-Question String: Who set his wits to work? 
 Answer: Crow
 
 QuestionID: fables-01-11
-Question String: Who tried to discover how to get the cheese?  
 Answer: fox
 
 QuestionID: fables-01-12
-Question String: What did the fox say about the birdâs beauty?    
 Answer: the beauty of the bird was incomparable
 
 QuestionID: fables-01-13
-Question String: How did the crow caw?     
 Answer: The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing .
 
 QuestionID: fables-02-1
-Question String: Who was feeding in a meadow?
 Answer: A Lion
 
 QuestionID: fables-02-2
-Question String: Who was persuaded by this flattery?
 Answer: The Bull
 
 QuestionID: fables-02-3
-Question String: Where was the bull?
 Answer: There once was a fat bull .
 
 QuestionID: fables-02-4
-Question String: Who was grazing?
 Answer: bull
 
 QuestionID: fables-02-5
-Question String: Who watched the bull?
 Answer: lion
 
 QuestionID: fables-02-6
-Question String: What did the lion feign?
 Answer: the lion was friendly
 
 QuestionID: fables-02-7
-Question String: Who is the story about?
 Answer: friend
 
 QuestionID: fables-02-8
-Question String: Who was foolish?
 Answer: friend
 
 QuestionID: fables-02-9
-Question String: What did the lion want?
 Answer: the lion wanted to eat the bull
 
 QuestionID: fables-02-10
-Question String: Why did not the lion attack the bull?
 Answer: because the lion feared sharp every horn of the bull
 
 QuestionID: fables-02-11
-Question String: What did the lion fear?
 Answer: the lion feared sharp every horn of the bull
 
 QuestionID: fables-02-12
-Question String: What is ugly? 
 Answer: But , my dear friend , what in the world makes you wear those ugly horns ?
 
 QuestionID: fables-02-13
-Question String: Who salivated? 
 Answer: lion
 
 QuestionID: fables-02-14
-Question String: Why did the lion salivate? 
 Answer: because the lion wanted to eat the bull
 
 QuestionID: fables-02-15
-Question String: What did the lion advise the bull? 
 Answer: every horn of the bull was ugly
 
 QuestionID: fables-02-16
-Question String: Why did the lion advise the bull to remove its horns?
 Answer: because every horn of the bull was ugly
 
 QuestionID: fables-02-17
-Question String: What did the lion decide? 
 Answer: The lion began to be hungry and decided to attempt to kill the bull .
 
 QuestionID: fables-02-18
-Question String: Who has horns? 
 Answer: lion
 
 QuestionID: fables-03-1
-Question String: Who is the story about?
 Answer: An Eagle
 
 QuestionID: fables-03-2
-Question String: Who swooped down upon a Serpant?
 Answer: An Eagle
 
 QuestionID: fables-03-3
-Question String: What did the Eagle seize it with?
 Answer: An Eagle swooped down upon a Serpent and seized it in his talons with the intention of carrying it off and devouring it .
 
 QuestionID: fables-03-4
-Question String: Who came to the assistance of the Eagle?
 Answer: countryman
 
 QuestionID: fables-03-5
-Question String: What did the Serpent spit?
 Answer: swooped toward a serpent
 
 QuestionID: fables-03-6
-Question String: Where did the Serpent spit some poison? 
 Answer: in the drinking vessel
 
 QuestionID: fables-03-7
-Question String: What did the countryman decide?
 Answer: sip from the drinking vessel
 
 QuestionID: fables-03-8
-Question String: Who spilled the drinking vessel?
 Answer: eagle
 
 QuestionID: fables-03-9
-Question String: What did the eagle spill? 
 Answer: The eagle spilled the drinking vessel .
 
 QuestionID: fables-03-10
-Question String: Where where the contents of the horn spilled? 
 Answer: with his exertions
 
 QuestionID: fables-03-11
-Question String: What was heated?
 Answer: the Eagle knocked it out of his hand , and spilled its contents upon the ground
 
 QuestionID: fables-03-12
-Question String: What did the Serpent do in revenge?
 Answer: In revenge the Serpent spat some of his poison into the man 's drinking-horn .
 
 QuestionID: fables-03-13
-Question String: Who seized it? 
 Answer: An Eagle
 
 QuestionID: fables-03-14
-Question String: Who had its coils around him? 
 Answer: eagle
 
 QuestionID: fables-03-15
-Question String: Who was a witness of the encounter?
 Answer: countryman
 
 QuestionID: fables-03-16
-Question String: Who came to the assistance of the Eagle? 
 Answer: countryman
 
 QuestionID: fables-03-17
-Question String: What did the countryman own?  
 Answer: escape
 
 QuestionID: fables-03-18
-Question String: Who succeeded in freeing him? 
 Answer: countryman
 
 QuestionID: fables-03-19
-Question String: What did the countryman free the eagle from? 
 Answer: escape
 
 QuestionID: fables-03-20
-Question String: What did the Serpent spat?
 Answer: In revenge the Serpent spat some of his poison into the man 's drinking-horn .
 
 QuestionID: fables-03-21
-Question String: Who spilled its contents? 
 Answer: the Eagle
 
 QuestionID: fables-04-1
-Question String: Who did the Fox invite to dinner?
 Answer: A Fox
 
 QuestionID: fables-04-2
-Question String: What was the only fare provided?
 Answer: provided
 
 QuestionID: fables-04-3
-Question String: Where was some soup served?
 Answer: in a flat and large dish
 
 QuestionID: fables-04-4
-Question String: Who is the story about?
 Answer: fox
 
 QuestionID: fables-04-5
-Question String: What did the fox do to the soup?
 Answer: provided
 
 QuestionID: fables-04-6
-Question String: Why did the fox begin to be hungry and begin to be helpless?
 Answer: because he was n't able to reach some food that was in the pitcher
 
 QuestionID: fables-04-7
-Question String: What did the stork easily fitted the long bill into?
 Answer: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
 
 QuestionID: fables-04-8
-Question String: Why did the Fox sit by hungry and helpless?
 Answer: while she enjoyed her dinner
 
 QuestionID: fables-04-9
-Question String: What was savoury? 
 Answer: The Fox lapped it up with great relish
 
 QuestionID: fables-04-10
-Question String: Who failed to drink some broth?
 Answer: stork
 
 QuestionID: fables-04-11
-Question String: What was the shape of the neck of the pitcher? 
 Answer: The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher .
 
 QuestionID: fables-04-12
-Question String: What was clever?
 Answer: dine
 
 QuestionID: fables-04-13
-Question String: What was the soup served in? 
 Answer: The fox only served some soup in a flat and large dish .
+
+QuestionID: blogs-01-1
+Answer: A summit meeting named G20 summit started on eventful today .
+
+QuestionID: blogs-01-2
+Answer: started on eventful today
+
+QuestionID: blogs-01-3
+Answer: G20 summit happened annually .
+
+QuestionID: blogs-01-4
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-5
+Answer: The people
+
+QuestionID: blogs-01-6
+Answer: The people
+
+QuestionID: blogs-01-7
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-8
+Answer: The people
+
+QuestionID: blogs-01-9
+Answer: The people burned a police car and threw a thing at a police .
+
+QuestionID: blogs-01-10
+Answer: burned
+
+QuestionID: blogs-01-11
+Answer: things got worse
+
+QuestionID: blogs-01-12
+Answer: things got worse
+
+QuestionID: blogs-01-13
+Answer: things got worse
+
+QuestionID: blogs-01-14
+Answer: police
+
+QuestionID: blogs-01-15
+Answer: things
+
+QuestionID: blogs-01-16
+Answer: because it disagreed about a view
+
+QuestionID: blogs-01-17
+Answer: rebelled
+
+QuestionID: blogs-01-18
+Answer: Police were in full riot gear to alleviate the violence .
+
+QuestionID: blogs-02-1
+Answer: man
+
+QuestionID: blogs-02-2
+Answer: of the young man
+
+QuestionID: blogs-02-3
+Answer: I
+
+QuestionID: blogs-02-4
+Answer: because it wanted the young man to know the narrator regretting that it had not aided him
+
+QuestionID: blogs-02-5
+Answer: of the narrator
+
+QuestionID: blogs-02-6
+Answer: A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man .
+
+QuestionID: blogs-02-7
+Answer: it
+
+QuestionID: blogs-02-8
+Answer: man
+
+QuestionID: blogs-02-9
+Answer: narrator
+
+QuestionID: blogs-02-10
+Answer: man
+
+QuestionID: blogs-02-11
+Answer: The narrator began to wonder that the flash was an orb
+
+QuestionID: blogs-02-12
+Answer: was above the narrator
+
+QuestionID: blogs-02-13
+Answer: A few years ago , a young man died out on my front lawn when he crashed his motorbike .
+
+QuestionID: blogs-02-14
+Answer: of the young man
+
+QuestionID: blogs-02-15
+Answer: man
+
+QuestionID: blogs-02-16
+Answer: narrator
+
+QuestionID: blogs-03-1
+Answer: affected by Hurricane Gustav
+
+QuestionID: blogs-03-2
+Answer: rolled in on Monday , September 1 , in the morning
+
+QuestionID: blogs-03-3
+Answer: Winds started kicking up .
+
+QuestionID: blogs-03-4
+Answer: President Bush
+
+QuestionID: blogs-03-5
+Answer: in Louisiana
+
+QuestionID: blogs-03-6
+Answer: to a store named Home Depot in order to purchase a portable generator
+
+QuestionID: blogs-03-7
+Answer: An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees .
+
+QuestionID: blogs-03-8
+Answer: because it owned a group of trees
+
+QuestionID: blogs-03-9
+Answer: on the house of the narrator
+
+QuestionID: blogs-03-10
+Answer: narrator
+
+QuestionID: blogs-03-11
+Answer: area
+
+QuestionID: blogs-03-12
+Answer: fell on the yard of a neighbor
+
+QuestionID: blogs-03-13
+Answer: narrator
+
+QuestionID: blogs-03-14
+Answer: were
+
+QuestionID: blogs-03-15
+Answer: wife
+
+QuestionID: blogs-04-1
+Answer: squirrel
+
+QuestionID: blogs-04-2
+Answer: squirrel
+
+QuestionID: blogs-04-3
+Answer: The squirrel 's paw slipped off the deck 's railing .
+
+QuestionID: blogs-04-4
+Answer: The birds bathed themselves in the bowl .
+
+QuestionID: blogs-04-5
+Answer: Squirrels
+
+QuestionID: blogs-04-6
+Answer: I
+
+QuestionID: blogs-04-7
+Answer: I wish I had a digital camera
+
+QuestionID: blogs-04-8
+Answer: day
+
+QuestionID: blogs-04-9
+Answer: on the railing
+
+QuestionID: blogs-04-10
+Answer: on the deck in order for Benjamin
+
+QuestionID: blogs-04-11
+Answer: The squirrels drank the bowl 's water .
+
+QuestionID: blogs-04-12
+Answer: The narrator placed the bowl on the deck in order for Benjamin to drink the bowl 's water .
+
+QuestionID: blogs-04-13
+Answer: The birds organized themselves on the deck 's railing in order for the birds to wait .
+
+QuestionID: blogs-04-14
+Answer: he 's playing outside
 

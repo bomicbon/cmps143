@@ -12,6 +12,10 @@ import operator
 from nltk.stem.lancaster import LancasterStemmer
 import re
 import pprint
+import csv
+from collections import defaultdict
+from nltk.corpus import wordnet as wn
+import wordnet_demo
 
 # Read the file from disk
 
@@ -52,6 +56,36 @@ def get_stems(word_list):
     return set(stem_list)
 
 
+def get_wordnet(word):
+    wordnet_list = []
+    noun_ids = wordnet_demo.load_wordnet_ids("Wordnet_nouns.csv")
+    verb_ids = wordnet_demo.load_wordnet_ids("Wordnet_verbs.csv")
+
+    # for synset_id, items in noun_ids.items():
+    #     noun = items['story_noun']
+    #     stories = items['stories']
+    #     # print(noun, stories)
+    #     # get lemmas, hyponyms, hypernyms
+
+    # for synset_id, items in verb_ids.items():
+    #     verb = items['story_verb']
+    #     stories = items['stories']
+    #     # print(verb, stories)
+    #     # get lemmas, hyponyms, hypernyms
+
+    word_synsets = wn.synsets(word)
+    for synset in word_synsets:
+        # GENERAL TO SPECIFIC
+        hyponyms = synset.hyponyms()
+        for hypo in hyponyms:
+            wordnet_list.append(hypo.name()[0:hypo.name().index(".")])
+        # SPECIFIC TO GENERAL
+        hypernyms = synset.hypernyms()
+        for hyper in hypernyms:
+            wordnet_list.append(hyper.name()[0:hyper.name().index(".")])
+    return set(wordnet_list)
+
+
 # qtokens: is a list of pos tagged question tokens with SW removed
 # sentences: is a list of pos tagged story sentences
 # stopwords is a set of stopwords
@@ -61,6 +95,13 @@ def baseline(qbow, sentences, stopwords):
     for sent in sentences:
         # A list of all the word tokens in the sentence
         sbow = get_bow(sent, stopwords)
+
+        qwordnet = set()
+        for word in qbow:
+            temp_qwordnet = get_wordnet(word)
+            qwordnet = qwordnet.union(temp_qwordnet)
+        print("QWORDNET: {}".format(qwordnet))
+        wordnet_overlap = len(qwordnet & sbow)
 
         # Stemming Overlap
         q_stems = get_stems(qbow)  # stemming question bag of words
@@ -73,7 +114,9 @@ def baseline(qbow, sentences, stopwords):
 
         # OPTION: TOGGLE STEMMING HERE
         # answers.append((overlap, sent))
-        answers.append((stem_overlap, sent))
+        score = (0.125 * overlap) + (0.125 * wordnet_overlap) + \
+            (0.75 * stem_overlap)
+        answers.append((score, sent))
 
     # Sort the results by the first element of the tuple (i.e., the count)
     # Sort answers from smallest to largest by default, so reverse it
@@ -91,6 +134,7 @@ if __name__ == '__main__':
     question = "Where was the crow sitting?"
 
     qbow = get_bow(get_sentences(question)[0], stopwords)
+    print("qbow: {}".format(qbow))
     sentences = get_sentences(text)
 
     answer = baseline(qbow, sentences, stopwords)

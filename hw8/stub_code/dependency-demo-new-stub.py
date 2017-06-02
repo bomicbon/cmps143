@@ -6,11 +6,16 @@ Created on May 14, 2014
 Modified on May 21, 2015
 '''
 
-import re, sys, nltk, operator
+import re
+import sys
+import nltk
+import operator
 from nltk.parse import DependencyGraph
 from nltk.stem.wordnet import WordNetLemmatizer
 
 # Read the lines of an individual dependency parse
+
+
 def read_dep(fh):
     dep_lines = []
     for line in fh:
@@ -18,7 +23,8 @@ def read_dep(fh):
         if len(line) == 0:
             return update_inconsistent_tags("\n".join(dep_lines))
         elif re.match(r"^QuestionId:\s+(.*)$", line):
-            # You would want to get the question id here and store it with the parse
+            # You would want to get the question id here and store it with the
+            # parse
             continue
         dep_lines.append(line)
     if len(dep_lines) > 0:
@@ -29,16 +35,20 @@ def read_dep(fh):
 # Note: the dependency tags return by Stanford Parser are slightly different than
 # what NLTK expects. We tried to change all of them, but in case we missed any, this
 # method should correct them for you.
+
+
 def update_inconsistent_tags(old):
     return old.replace("root", "ROOT")
 
 # Read the dependency parses from a file
+
+
 def read_dep_parses(depfile):
     fh = open(depfile, 'r')
 
     # list to store the results
     graphs = []
-    
+
     # Read the lines containing the first parse.
     dep = read_dep(fh)
 
@@ -56,6 +66,8 @@ def read_dep_parses(depfile):
     return graphs
 
 # Return the word of the root node
+
+
 def find_root_word(graph):
     for node in graph.nodes.values():
         if node['rel'] == 'ROOT':
@@ -63,11 +75,14 @@ def find_root_word(graph):
     return None
 
 # find the node with similar word
+
+
 def find_node(word, graph):
     for node in graph.nodes.values():
         if 'word' in node and node["word"] == word:
             return node
     return None
+
 
 def get_dependents(node, graph):
     results = []
@@ -78,6 +93,7 @@ def get_dependents(node, graph):
         results += get_dependents(dep, graph)
     return results
 
+
 def pretty_question(qgraph):
     question = []
     for q in qgraph.nodes.values():
@@ -85,8 +101,10 @@ def pretty_question(qgraph):
             question.append(q['word'])
     return " ".join(question)
 
+
 def find_answer(qgraph, sgraphs):
     qword = find_root_word(qgraph)
+    print("QWORD: {}".format(qword))
     # look for answer in the sgraphs, return the first match
     for sgraph in sgraphs:
         snode = find_node(qword, sgraph)

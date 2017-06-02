@@ -39,6 +39,14 @@ def get_question_parse_tree(qname, par_raw):
     return None
 
 
+def get_wordnet(question_list, text):
+    #
+    noun_ids = load_wordnet_ids("Wordnet_nouns.csv")
+    verb_ids = load_wordnet_ids("Wordnet_verbs.csv")
+
+    return
+
+
 def get_answer_parse_tree(qtypes, data_dict, question):
     # IN: qt, data_dict
     # OUT: tree_tuple
@@ -60,6 +68,9 @@ def get_answer_parse_tree(qtypes, data_dict, question):
         for r, p in zip(raw_text_list, par_text_list):
             raw_par_list.append((r, p))
         qbow = get_bow(get_sentences(question)[0], stopwords)
+
+        # print("qbow: {}".format(qbow))
+
         answer = baseline_stub.baseline(qbow, raw_text_list, stopwords)
         answer_string = " ".join(t[0] for t in answer)
         for tuple in raw_par_list:
@@ -123,35 +134,35 @@ def find_phrase(question_type, answer_tree):
 def process_command(story_list):
     # IN: story_id.txt from command line
     # OUT:
-    orig_stdout = sys.stdout
+    #orig_stdout = sys.stdout
     # 'lastname1_lastname2_answers.txt'
     out_filename = "chien_lee_answers.txt"
     f = open(out_filename, 'w')
-    sys.stdout = f
+    #sys.stdout = f
     # Iterate through each story file
     for fname in story_list:
         data_dict = read_write_stub.get_data_dict(fname)
         questions = read_write_stub.getQA("{}.questions".format(fname))
         for q in range(0, len(questions)):
             qname = "{0}-{1}".format(fname, q + 1)
-            print("QuestionID: " + qname)
+            f.write("QuestionID: " + qname + "\n")
             qtypes = questions[qname]['Type']
             # print("QuestionType: " + qtypes)
             question = questions[qname]['Question']
-            # print("Question String: " + question)
+            print("Question String: " + question)
 
             # QUESTION PARSE TREE
             question_parse_tree = get_question_parse_tree(
                 qname, data_dict["questions.par"])
             question_type = get_question_type(question_parse_tree)
-            #print("Question Parse Tree: {}\n".format(question_parse_tree))
+            # print("Question Parse Tree: {}\n".format(question_parse_tree))
             # print("WH WORD: {}".format(question_type))
 
             # LIST OF ANSWER PARSE TREES (sch|story) only
             answer_parse_tree_data = get_answer_parse_tree(
                 qtypes, data_dict, question)
             # IF WE HAVE AN SCH|STORY
-            #print("Answer Parse Tree: {}\n".format(answer_parse_tree_data))
+            # print("Answer Parse Tree: {}\n".format(answer_parse_tree_data))
             if isinstance(answer_parse_tree_data, tuple):
                 answer_phrase_sch = find_phrase(
                     question_type, answer_parse_tree_data[0])
@@ -159,18 +170,21 @@ def process_command(story_list):
                     question_type, answer_parse_tree_data[1])
                 # FLIP A COIN FOR ONE OUTPUT ONLY SMH
                 if random.random() > 0.5:
+                    f.write("Answer: {}\n\n".format(answer_phrase_sch))
                     print("Answer: {}".format(answer_phrase_sch))
                 else:
+                    f.write("Answer: {}\n\n".format(answer_phrase_story))
                     print("Answer: {}".format(answer_phrase_story))
             # IT'S EITHER ONLY SCH OR ONLY STORY
             else:
                 answer_phrase = find_phrase(
                     question_type, answer_parse_tree_data)
                 # print(answer_tree)
+                f.write("Answer: {}\n\n".format(answer_phrase))
                 print("Answer: {}".format(answer_phrase))
                 # print(answer_phrase)
             print()  # new line per question
-    sys.stdout = orig_stdout
+    #sys.stdout = orig_stdout
     f.close()
 
 if __name__ == '__main__':

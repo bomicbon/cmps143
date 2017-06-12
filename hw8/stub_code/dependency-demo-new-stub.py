@@ -70,6 +70,8 @@ def read_dep_parses(depfile):
 
 def find_root_word(graph):
     for node in graph.nodes.values():
+        if node['rel'] == 'root':
+            return node["word"]
         if node['rel'] == 'ROOT':
             return node["word"]
     return None

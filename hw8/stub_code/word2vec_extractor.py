@@ -10,13 +10,18 @@ punct = set(string.punctuation)
 
 w2v = os.path.join("GoogleNews-vectors-negative300.bin")
 
+
 class Word2vecExtractor:
 
-    def __init__(self, w2vecmodel = w2v):
-        self.w2vecmodel=gensim.models.Word2Vec.load_word2vec_format(w2vecmodel, binary=True)
-    
-    def sent2vec(self,sentence):    
-        words = [word.lower() for word in nltk.word_tokenize(sentence) if word not in stops and word not in punct]
+    def __init__(self, w2vecmodel=w2v):
+        # self.w2vecmodel = gensim.models.Word2Vec.load_word2vec_format(
+        #     w2vecmodel, binary=True)
+        self.w2vecmodel = gensim.models.KeyedVectors.load_word2vec_format(
+            w2vecmodel, binary=True)
+
+    def sent2vec(self, sentence):
+        words = [word.lower() for word in nltk.word_tokenize(sentence)
+                 if word not in stops and word not in punct]
         res = np.zeros(self.w2vecmodel.vector_size)
         count = 0
         for word in words:
@@ -27,10 +32,10 @@ class Word2vecExtractor:
         if count != 0:
             res /= count
 
-        return res 
+        return res
 
     def doc2vec(self, doc):
-        count = 0    
+        count = 0
         res = np.zeros(self.w2vecmodel.vector_size)
         for sentence in nltk.sent_tokenize(doc):
             for word in nltk.word_tokenize(sentence):
@@ -42,8 +47,8 @@ class Word2vecExtractor:
         if count != 0:
             res /= count
 
-        return res 
-  
+        return res
+
     def word2v(self, word):
         res = np.zeros(self.w2vecmodel.vector_size)
         if word in self.w2vecmodel:
@@ -52,22 +57,8 @@ class Word2vecExtractor:
 
 if __name__ == "__main__":
 
-        W2vecextractor = Word2vecExtractor(w2vecmodel)
- 
-        sentence = "A fisherman was catching fish by the sea."
+    W2vecextractor = Word2vecExtractor(w2v)
 
-        features = W2vecextractor.sent2vec(sentence)
-        
+    sentence = "A fisherman was catching fish by the sea."
 
-
-
-
-
-
-
-
-
-
-
-	
-        
+    features = W2vecextractor.sent2vec(sentence)

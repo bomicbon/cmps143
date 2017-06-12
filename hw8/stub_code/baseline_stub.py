@@ -86,45 +86,72 @@ def get_wordnet(word):
     return set(wordnet_list)
 
 
+def stem_baseline(qbow, sentences, stopwords):
+    # returns list of top 3 answers using stemming
+    answers = []
+    for sent in sentences:
+        sbow = get_bow(sent, stopwords)
+        # Stemming Overlap
+        q_stems = get_stems(qbow)  # stemming question bag of words
+        s_stems = get_stems(sbow)  # stemming sentence bag of words
+        stem_overlap = len(q_stems & s_stems)
+        answers.append((stem_overlap, sent))
+    answers = sorted(answers, key=operator.itemgetter(0), reverse=True)
+    first_answer = (answers[0])[1]
+    second_answer = (answers[0])[1]
+    third_answer = (answers[0])[1]
+    answer_list = [first_answer, second_answer, third_answer]
+    return answer_list
+
 # qtokens: is a list of pos tagged question tokens with SW removed
 # sentences: is a list of pos tagged story sentences
 # stopwords is a set of stopwords
+
+
+def wordnet_baseline(qbow, sentences, stopwords):
+    answers = []
+    for sent in sentences:
+        # A list of all the word tokens in the sentence
+        sbow = get_bow(sent, stopwords)
+        qwordnet = set()
+        for word in qbow:
+            temp_qwordnet = get_wordnet(word)
+            qwordnet = qwordnet.union(temp_qwordnet)
+        # print("QWORDNET: {}".format(qwordnet))
+        wordnet_overlap = len(qwordnet & sbow)
+        answers.append((wordnet_overlap, sent))
+    answers = sorted(answers, key=operator.itemgetter(0), reverse=True)
+    first_answer = (answers[0])[1]
+    second_answer = (answers[1])[1]
+    third_answer = (answers[2])[1]
+    answer_list = [first_answer, second_answer, third_answer]
+    return answer_list
+
+
 def baseline(qbow, sentences, stopwords):
     # Collect all the candidate answers
     answers = []
     for sent in sentences:
         # A list of all the word tokens in the sentence
         sbow = get_bow(sent, stopwords)
-
-        qwordnet = set()
-        for word in qbow:
-            temp_qwordnet = get_wordnet(word)
-            qwordnet = qwordnet.union(temp_qwordnet)
-        print("QWORDNET: {}".format(qwordnet))
-        wordnet_overlap = len(qwordnet & sbow)
-
-        # Stemming Overlap
-        q_stems = get_stems(qbow)  # stemming question bag of words
-        s_stems = get_stems(sbow)  # stemming sentence bag of words
-        stem_overlap = len(q_stems & s_stems)
-
         # Count the # of overlapping words between the Q and the A
         # & is the set intersection operator
         overlap = len(qbow & sbow)
 
         # OPTION: TOGGLE STEMMING HERE
-        # answers.append((overlap, sent))
-        score = (0.125 * overlap) + (0.125 * wordnet_overlap) + \
-            (0.75 * stem_overlap)
-        answers.append((score, sent))
+        answers.append((overlap, sent))
 
     # Sort the results by the first element of the tuple (i.e., the count)
     # Sort answers from smallest to largest by default, so reverse it
     answers = sorted(answers, key=operator.itemgetter(0), reverse=True)
 
     # Return the best answer
-    best_answer = (answers[0])[1]
-    return best_answer
+    # best_answer = (answers[0])[1]
+    # return best_answer
+    first_answer = (answers[0])[1]
+    second_answer = (answers[1])[1]
+    third_answer = (answers[2])[1]
+    answer_list = [first_answer, second_answer, third_answer]
 
 if __name__ == '__main__':
     text_file = "fables-01.sch"

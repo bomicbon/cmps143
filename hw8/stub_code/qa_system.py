@@ -5,8 +5,15 @@ import nltk
 import baseline_stub
 from baseline_stub import get_sentences
 from baseline_stub import get_bow
+# baseline_stub_word2vec_demo imports
+from word2vec_extractor import Word2vecExtractor
+from sklearn.metrics.pairwise import cosine_similarity
+from dependency_demo_stub import read_dep_parses, find_main
+from baseline_stub_word2vec_demo import get_word2vec_answers
 import sys
 import random
+import operator
+from collections import Counter
 
 
 def read_file(file_name):
@@ -39,15 +46,23 @@ def get_question_parse_tree(qname, par_raw):
     return None
 
 
-def get_wordnet(question_list, text):
-    #
-    noun_ids = load_wordnet_ids("Wordnet_nouns.csv")
-    verb_ids = load_wordnet_ids("Wordnet_verbs.csv")
-
-    return
+def most_common(lst):
+    return max(lst, key=lst.count)
 
 
-def get_answer_parse_tree(qtypes, data_dict, question):
+def find_best_candidate(candidates):
+    candidate_list = []
+    for answer_list in candidates:
+        if answer_list is not None:
+            for answer in answer_list:
+                candidate_list.append(answer)
+    # best_answer = max(candidate_dict.iteritems(),
+    #                   key=operator.itemgetter(1))[0]
+    best_answer = most_common(candidate_list)
+    return best_answer
+
+
+def get_answer_parse_tree(qtypes, data_dict, question, fname):
     # IN: qt, data_dict
     # OUT: tree_tuple
     stopwords = set(nltk.corpus.stopwords.words("english"))
@@ -68,10 +83,23 @@ def get_answer_parse_tree(qtypes, data_dict, question):
         for r, p in zip(raw_text_list, par_text_list):
             raw_par_list.append((r, p))
         qbow = get_bow(get_sentences(question)[0], stopwords)
-
-        # print("qbow: {}".format(qbow))
-
-        answer = baseline_stub.baseline(qbow, raw_text_list, stopwords)
+        # baseline answers
+        baseline_answers = baseline_stub.baseline(
+            qbow, raw_text_list, stopwords)
+        # stem answers
+        stem_answers = baseline_stub.stem_baseline(
+            qbow, raw_text_list, stopwords)
+        # wordnet answers
+        wordnet_answers = baseline_stub.wordnet_baseline(
+            question, raw_text_list, stopwords)
+        # word2vec answers
+        dep_fname = fname + ".questions.dep"
+        print(dep_fname)
+        word2vec_answers = get_word2vec_answers(
+            question, dep_fname, raw_text)
+        answer_candidates = [baseline_answers,
+                             stem_answers, wordnet_answers, word2vec_answers]
+        answer = find_best_candidate(answer_candidates)
         answer_string = " ".join(t[0] for t in answer)
         for tuple in raw_par_list:
             if tuple[0] == answer:
@@ -134,11 +162,11 @@ def find_phrase(question_type, answer_tree):
 def process_command(story_list):
     # IN: story_id.txt from command line
     # OUT:
-    #orig_stdout = sys.stdout
+    # orig_stdout = sys.stdout
     # 'lastname1_lastname2_answers.txt'
     out_filename = "chien_lee_answers.txt"
     f = open(out_filename, 'w')
-    #sys.stdout = f
+    # sys.stdout = f
     # Iterate through each story file
     for fname in story_list:
         data_dict = read_write_stub.get_data_dict(fname)
@@ -160,7 +188,7 @@ def process_command(story_list):
 
             # LIST OF ANSWER PARSE TREES (sch|story) only
             answer_parse_tree_data = get_answer_parse_tree(
-                qtypes, data_dict, question)
+                qtypes, data_dict, question, fname)
             # IF WE HAVE AN SCH|STORY
             # print("Answer Parse Tree: {}\n".format(answer_parse_tree_data))
             if isinstance(answer_parse_tree_data, tuple):
@@ -184,7 +212,7 @@ def process_command(story_list):
                 print("Answer: {}".format(answer_phrase))
                 # print(answer_phrase)
             print()  # new line per question
-    #sys.stdout = orig_stdout
+    # sys.stdout = orig_stdout
     f.close()
 
 if __name__ == '__main__':
